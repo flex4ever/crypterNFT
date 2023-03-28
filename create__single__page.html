@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>СrypterNFT</title>
-    <link rel="stylesheet" href="/css/create__single__page/create__single__page.css">
-    <link rel="stylesheet" href="/css/create__single__page/create__single__page__media.css">
+    <link rel="stylesheet" href="../css/create__single__page/create__single__page.css">
+    <link rel="stylesheet" href="../css/create__single__page/create__single__page__media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -22,12 +22,83 @@
 <body>
     <main>
         <div class="container">
-            
+            <div class="block">
+                <div class="block__single">
+                    <div class="block__title-text">
+                        <h2 class="block__title-text-decor">Create single collectible</h2>
+                        <a href="" class="block__btn">
+                            <p class="block__btn-text">Switch to Multiple</p>
+                        </a>
+                    </div>
+                    <div class="block__upload-file">
+                        <p class="block__upload-text-title">
+                            Upload file
+                        </p>
+                        <p class="block__upload-text-one">
+                            Drag or choose your file to upload
+                        </p>
+                        <form id="upload-container" method="POST" action="send.php">
+                            <img id="upload-image" src="./icons/1/file.svg">
+                            <div>
+                                <input id="file-input" type="file" name="file" multiple>
+                                <label for="file-input">PNG, GIF, WEBP, MP4 or MP3. Max 1Gb.</label>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="block__preview">
+                    <p class="block__preview__title">
+                        Preview
+                    </p>
+                    <div class="block__preview__flex">
+                    <img src="./img/create__single__page/prew__photo.png" alt="" class="block__preview__img">
+                    
+                    <div class="block__preview__info">
+                        <div class="block__preview__info-one">
+                            <p class="block__preview__info-one-text">Black Golden Tiger</p>
+                            <div class="block__preview__info-one-block">
+                                <p class="block__preview__info-one-block-text">2.45 ETH</p>
+                            </div>
+                        </div>
+                        <div class="block__preview__info-two">
+                            <div class="block__preview__avatar">
+                                <a href="" class="block__preview__info-purple">
+                                    <div class="block__preview__info-img"> </div>
+                                </a>
+                                <a href="" class="block__preview__info-pink">
+                                    <div class="block__preview__info-img"> </div>
+                                </a>
+                                <a href="" class="block__preview__info-green">
+                                    <div class="block__preview__info-img"> </div>
+                                </a>
+                            </div>
+                            <div class="block__preview-vis">
+                                <p class="block__preview-vls-text">3 in stock</p>
+                            </div>
+                        </div>
+                        <div class="block__preview__info-three">
+                            <div class="block__preview__info-block-one">
+                                <img src="./icons/1/candlesticks_up.svg" alt="">
+                                <p class="block__preview__info-three-text">
+                                    Highest bid
+                                </p>
+                                <p class="block__preview__info-three-decor">0.001 ETH</p>
+                            </div>
+                            <p class="block__preview__info-three-text-two">New bid 🔥</p>
+                        </div>
+                        <button class="block__preview__info-btn">
+                            <img src="./icons/1/close_round.svg" alt="">
+                            <p class="block__preview__info-btn-text">Clear all</p>
+                        </button>
+                    </div>
+                </div>
+                </div>
 
 
-        </div>
+            </div>
     </main>
-<script src="/js/create__single__page.js"></script>
+    <script src="../js/create__single__page.js"></script>
 </body>
 
 </html>
