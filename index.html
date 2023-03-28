@@ -1,24 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypter</title>
+    <link rel="stylesheet" href="./css/header/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <!--font-family: 'Poppins', sans-serif;-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!--font-family: 'DM Sans', sans-serif;-->
-</head>
+  </head>
 
-<body>
-
-</body>
-
+  <body>
+    <header class="header">
+      <nav class="container flex-wrapper flex-wrapper_jcsb" style="height: 100%">
+        <div class="logo-block">
+          <div class="logo-block__logo-and-text">
+            <img src="./icons/1/logo.svg" alt="" class="logo-block__logo" />
+            <p class="logo-block__logo-text">crypter</p>
+          </div>
+          <div class="line"></div>
+          <p class="logo-block__desc-text">Discover</p>
+          <p class="logo-block__desc-text">How it work</p>
+        </div>
+        <div class="other-block">
+          <div class="other-block__search">
+            <input type="search" placeholder="Search"  class="other-block__search-input"/>
+            <button class="other-block__search-button">
+              <img src="./icons/1/search__input.svg" alt="" />
+            </button>
+          </div>
+          <button class="other-block__notification">
+            <img src="./img/header_img/Notification.png" alt="" />
+          </button>
+          <button class="other-block__upload-button">Upload</button>
+          <button class="other__block__account-button">
+            <img src="./img/header_img/avatar.png" alt="" class="other__block__account-img" />
+            <p class="other__block__account-money">7.00698 <span class="other__block__account-money-valute">ETH</span></p>
+          </button>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
