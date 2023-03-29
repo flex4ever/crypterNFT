@@ -10,8 +10,8 @@ window.addEventListener('DOMContentLoaded', () => {
     notificationBtn.addEventListener('mouseover', () => {
         notificationModal.classList.toggle('notifcations_active')
     })
-    notificationModal.addEventListener('mouseout', () => {
-        // notificationModal.classList.remove('notifcations_active')
+    window.addEventListener('click', () => {
+        notificationModal.classList.remove('notifcations_active')
 
     })
 
@@ -24,13 +24,13 @@ window.addEventListener('DOMContentLoaded', () => {
         console.log(linePage)
         if (linePage == 1) {
             navModal.classList.add('modal-nav_active')
-            navBtnLineUp.classList.add('nav-menu__line-one-open')
-            navBtnLineDown.classList.add('nav-menu__line-two-open')
+            navBtnLineUp.classList.toggle('nav-menu__line-one-open')
+            navBtnLineDown.classList.toggle('nav-menu__line-two-open')
 
         } else if (linePage == 2) {
             navModal.classList.remove('modal-nav_active')
-            navBtnLineUp.classList.add('nav-close-one')
-            navBtnLineDown.classList.add('nav-close-two')
+            navBtnLineUp.classList.toggle('nav-close-one')
+            navBtnLineDown.classList.toggle('nav-close-two')
             linePage = 0
         }
 
