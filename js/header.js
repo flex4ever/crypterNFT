@@ -4,35 +4,27 @@ window.addEventListener('DOMContentLoaded', () => {
         navBtnLineDown = document.getElementById('nav-menu__lineDown'),
         navModal = document.querySelector('.modal-nav'),
         notificationBtn = document.querySelector('.other-block__notification'),
-        notificationModal = document.querySelector('.notifications')
+        notificationModal = document.querySelector('.notifications'),
+        notificationModalWrapper = document.querySelector('.notifications-wrapper'),
+        body = document.querySelector('body')
     let linePage = 0
 
-    notificationBtn.addEventListener('mouseover', () => {
+    notificationBtn.addEventListener('click', (el) => {
         notificationModal.classList.toggle('notifcations_active')
-    })
-    window.addEventListener('click', () => {
-        notificationModal.classList.remove('notifcations_active')
 
     })
-
     navBtn.addEventListener('click', () => {
         linePage++
-        navBtnLineUp.classList.remove('nav-close-one')
-        navBtnLineDown.classList.remove('nav-close-two')
-        navBtnLineUp.classList.remove('nav-menu__line-one-open')
-        navBtnLineDown.classList.remove('nav-menu__line-two-open')
         console.log(linePage)
         if (linePage == 1) {
-            navModal.classList.add('modal-nav_active')
-            navBtnLineUp.classList.toggle('nav-menu__line-one-open')
-            navBtnLineDown.classList.toggle('nav-menu__line-two-open')
-
+            navModal.classList.add('modal-nav_active')         
+            navBtnLineUp.style.animation = "0.3s nav-menuAnimUp ease  forwards"
+            navBtnLineDown.style.animation = " 0.3s nav-menuAnimDown ease forwards"
         } else if (linePage == 2) {
-            navModal.classList.remove('modal-nav_active')
-            navBtnLineUp.classList.toggle('nav-close-one')
-            navBtnLineDown.classList.toggle('nav-close-two')
+            navModal.classList.remove('modal-nav_active')   
+            navBtnLineUp.style.animation = "0.3s nav-menuAnimUp2 reverse forwards  "
+            navBtnLineDown.style.animation = " 0.3s nav-menuAnimDown2 reverse forwards"
             linePage = 0
         }
-
     })
 })
