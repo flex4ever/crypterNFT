@@ -120,6 +120,10 @@
     cursor: pointer;
 }
 
+.footer__list-desc_mobile{
+    display: none;
+}
+
 .footer-up__input-block {
     display: flex;
     align-items: center;
