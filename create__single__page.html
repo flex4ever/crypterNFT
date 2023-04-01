@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СrypterNFT</title>
+    <link rel="stylesheet" href="./css/create__single__page_css/create__single__page.css">
+    <link rel="stylesheet" href="./css/create__single__page_css/create__single__page__media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--font-family: 'Poppins', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--font-family: 'DM Sans', sans-serif;-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <main>
+
+        <div class="container">
+            <div class="block">
+                <div class="block__single">
+                    <div class="block__title-text">
+                        <h2 class="block__title-text-decor">Create single collectible</h2>
+                        <a href="" class="block__btn">
+                            <p class="block__btn-text">Switch to Multiple</p>
+                        </a>
+                    </div>
+                    <div class="block__upload-file">
+                        <p class="block__upload-text-title">
+                            Upload file
+                        </p>
+                        <p class="block__upload-text-one">
+                            Drag or choose your file to upload
+                        </p>
+                        <form id="upload-container" method="POST" action="send.php">
+                            <img id="upload-image" src="./icons/1/file.svg">
+                            <div>
+                                <input id="file-input" type="file" name="file" multiple>
+                                <label for="file-input">PNG, GIF, WEBP, MP4 or MP3. Max 1Gb.</label>
+
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="block__inputs">
+                        <p class="block__inputs-title">
+                            Item Details
+                        </p>
+                        <form action="">
+                            <div class="block__inputs-one">
+                                <label class="block__inputs-one-label" for="nameOne">Item name</label>
+                                <input class="block__inputs-one-block" type="name"
+                                    placeholder='e. g. "Redeemable Bitcoin Card with logo" '>
+                            </div>
+                            <div class="block__inputs-one">
+                                <label class="block__inputs-one-label" for="nameOne">Description</label>
+                                <input class="block__inputs-one-block" type="name"
+                                    placeholder="e. g. “After purchasing you will able to recived the logo...”">
+                            </div>
+
+                            <div class="block__inputs-flex">
+                                <div class="block__inputs-two">
+                                    <label class="block__inputs-one-label" for="nameOne">Royalties</label>
+                                    <select name="" id="">
+                                        <option value="">10%</option>
+                                        <option value="">20%</option>
+                                        <option value="">30%</option>
+                                        <option value="">40%</option>
+                                        <option value="">50%</option>
+                                    </select>
+
+                                </div>
+                                <div class="block__inputs-two">
+                                    <label class="block__inputs-one-label" for="nameOne">Size</label>
+                                    <input type="number" class="block__inputs-two-block" placeholder="e. g. Size">
+                                </div>
+                                <div class="block__inputs-two">
+                                    <label class="block__inputs-one-label" for="nameOne">Propertie</label>
+                                    <input type="name" class="block__inputs-two-block" placeholder="e. g. Propertie">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="block__switches">
+                        <div class="" id="switches">
+                            <div class="block__switch-block">
+                                <div class="block__switch-text">
+                                    <p class="block__switch-text-one">Put on sale</p>
+                                    <p class="block__switch-text-two">You’ll receive bids on this item</p>
+                                </div>
+                                <div class="block__input">
+                                    <label class="block__switch">
+                                        <input class="block__switch-input" type="checkbox" data-id="1">
+                                        <span class="block__switch-slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="block__switch-block block__switch-block_margin">
+                                <div class="block__switch-text">
+                                    <p class="block__switch-text-one">Instant sale price</p>
+                                    <p class="block__switch-text-two">Enter the price for which the item will be
+                                        instantly
+                                        sold</p>
+                                </div>
+                                <div class="block__input">
+                                    <label class="block__switch">
+                                        <input class="block__switch-input" type="checkbox" data-id="2">
+                                        <span class="block__switch-slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="block__switch-block block__switch-block_margin">
+                                <div class="block__switch-text">
+                                    <p class="block__switch-text-one">Unlock once purchased</p>
+                                    <p class="block__switch-text-two">Content will be unlocked after successful
+                                        transaction
+                                    </p>
+                                </div>
+                                <div class="block__input">
+                                    <label class="block__switch">
+                                        <input class="block__switch-input" type="checkbox" data-id="3">
+                                        <span class="block__switch-slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block__switch-block block__switch-block_margin">
+                            <div class="block__switch-text">
+                                <p class="block__switch-text-one">Choose collection</p>
+                                <p class="block__switch-text-two">Choose an exiting collection or create a new one</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swiper1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swipe2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swiper3.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swiper4.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swiper5.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swiper5.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swiper5.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swiper5.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="swiper-img" src="./img/create__single__page_img/swiper5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__btn-and-save">
+                        <button class="block__btn-final" id="upmodal">
+                            <p class="block__btn-text-final">Create item</p>
+                            <img class="block__btn-img-final" src="./icons/1/right_white.svg" alt="">
+                        </button>
+
+                        <div class="block__dowland active">
+                            <p class="block__dowland-text">Auto saving</p>
+                            <img class="block__dowland-img" src="./icons/1/dowland.svg" alt="">
+                        </div>
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br>
+
+                </div>
+                <div class="block__preview">
+                    <p class="block__preview__title">
+                        Preview
+                    </p>
+                    <div class="block__preview__flex">
+                        <a href=""><img src="./img/create__single__page_img/prew__photo.png" alt=""
+                                class="block__preview__img"></a>
+
+                        <div class="block__preview__info">
+                            <div class="block__preview__info-one">
+                                <a href="" class="block__preview__info-one-text">Black Golden Tiger</a>
+                                <div class="block__preview__info-one-block">
+                                    <p class="block__preview__info-one-block-text">2.45 ETH</p>
+                                </div>
+                            </div>
+                            <div class="block__preview__info-two">
+                                <div class="block__preview__avatar">
+                                    <a href="" class="block__preview__info-purple">
+                                        <img class="block__preview__info-img"
+                                            src="./img/create__single__page_img/main_man_for_icon.png" alt="">
+                                    </a>
+                                    <a href="" class="block__preview__info-pink">
+                                        <img class="block__preview__info-img"
+                                            src="./img/create__single__page_img/main_man_for_icon.png" alt="">
+                                    </a>
+                                    <a href="" class="block__preview__info-green">
+                                        <img class="block__preview__info-img"
+                                            src="./img/create__single__page_img/main_man_for_icon.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="block__preview-vis">
+                                    <p class="block__preview-vls-text">3 in stock</p>
+                                </div>
+                            </div>
+                            <div class="block__preview__info-three">
+                                <div class="block__preview__info-block-one">
+                                    <img src="./icons/1/candlesticks_up.svg" alt="">
+                                    <p class="block__preview__info-three-text">
+                                        Highest bid
+                                    </p>
+                                    <p class="block__preview__info-three-decor">0.001 ETH</p>
+                                </div>
+                                <p class="block__preview__info-three-text-two">New bid 🔥</p>
+                            </div>
+                            <button class="block__preview__info-btn">
+                                <img src="./icons/1/close_round.svg" alt="">
+                                <p class="block__preview__info-btn-text">Clear all</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="btns">
+            <div class="modal__block">
+               
+                <div class="modal__title">
+                    <p class="modal__title-text">Folow steps</p>
+                    <button class="modal__title-btn"><img class="modal__title-img" src="./icons/1/close.svg"
+                            alt=""></button>
+                </div>
+                <div class="modal__blocks">
+                <div class="modal__file">
+                    <div class="modal__flex">
+                        <div class="modal__file-img " id="img-1">
+                            <img class="modal__img" src="./icons/1/file.svg" alt="" id="img-1-1">
+                        </div>
+                        <div class="modal__file-text-flex">
+                            <p class="modal__file-text-one">Upload files & Mint token</p>
+                            <p class="modal__file-text-two">Call contract method</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="modal__btn modal__btn-active" data-start="1" id="btn-1">
+                    <p class="modal__btn-text " data-start="1">Start now</p>
+                </button>
+            </div>
+            <div class="modal__blocks">
+                <div class="modal__file">
+                    <div class="modal__flex">
+                        <div class="modal__file-img" id="img-2">
+                            <img src="./icons/1/pencil.svg" alt="" id="img-2-2">
+                        </div>
+                        <div class="modal__file-text-flex">
+                            <p class="modal__file-text-one">Sign sell order</p>
+                            <p class="modal__file-text-two">Sign sell order using your wallet</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="modal__btn"  id="btn-2">
+                    <p class="modal__btn-text"  id="btn-2-text">Start now</p>
+                </button>
+            </div>
+            <div class="modal__blocks">
+                <div class="modal__file">
+                    <div class="modal__flex">
+                        <div class="modal__file-img" id="img-3">
+                            <img src="./icons/1/shop.svg" alt="" id="img-3-3">
+                        </div>
+                        <div class="modal__file-text-flex">
+                            <p class="modal__file-text-one">Sign lock order</p>
+                            <p class="modal__file-text-two">Sign lock order using your wallet</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="modal__btn" id="btn-3">
+                    <p class="modal__btn-text" id="btn-3-text">Start now</p>
+                </button>
+            </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/create__single__page.js"></script>
+</body>
+
+</html>
