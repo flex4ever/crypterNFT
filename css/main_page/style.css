@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.flex-wrapper_jcsb {
+    justify-content: space-between;
+}
+
+.flex-wrapper_jcsa {
+    justify-content: space-around;
+}
+
+.flex-wrapper_fdc {
+    flex-direction: column;
+}
+
+.flex-wrapper_width {
+    width: 100%;
+}
+
+.main-block {
+    background: #141416;
+    padding-top: 128px;
+}
+
+.preface__description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #777E91;
+}
+
+.preface__title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+    margin-top: 10px;
+}
+
+.preface__btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+    padding: 16px 24px;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    background: none;
+    margin-top: 24px;
+}
+
+.mainNft {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 130px;
+}
+
+.mainNft__photo {
+    border-radius: 16px;
+}
+
+.descNft__title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    /* or 100% */
+
+    letter-spacing: -0.02em;
+
+    /* Neutrals/8 */
+
+    color: #FCFCFD;
+}
+
+.descNft {
+    width: 352px;
+}
+
+.descNft__creator-and-instprice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.descNft__creator {
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.descNft__creator-description,
+.descNft__instant-price-description {
+    margin-left: 8px;
+}
+
+.descNft__creator-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.descNft__creator-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.descNft__instant-price-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.descNft__instant-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.auctionNft {
+    width: 352px;
+    height: 296px;
+    background: #23262F;
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    border-radius: 24px;
+    padding-top: 32px;
+    margin-top: 42px;
+}
+
+.auctionNft__currentBid {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.auctionNft__currentBid-priceCrypto {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FCFCFD;
+}
+
+.auctionNft__auction-ending {
+    margin-top: 24px;
+}
+
+.auctionNft__currentBid-price-dollar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    /* Neutrals/4 */
+
+    color: #777E91;
+}
+
+.auctionNft__auction-ending-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.auctionNft__time {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+}
+
+.auctionNft__time-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #777E91;
+}
+
+.descNft__buttons-group {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.descNft__place-a-bid {
+    border: 0;
+    padding: 16px 24px;
+    width: 100%;
+    background: #3772FF;
+    border-radius: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.descNft__view-item {
+    background: none;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    width: 100%;
+    margin-top: 8px;
+    height: 48px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.descNft__arrows-group {
+    margin-top: 40px;
+    position: absolute;
+    top: 700px;
+    z-index: 10;
+}
+
+.descNft__arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    background: none;
+}
+
+.descNft__arrow:hover {
+    border: 2px solid #777E91;
+}
+
+/* 
+.main-slider-line{
+    display: flex;
+} */
+.slick-initialized .slick-slide {
+    display: flex !important;
+}
+
+.slick-arrow.slick-prev {
+
+    font-size: 0;
+    background: url(../../img/main_page-img/arrow-left.svg) 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slick-arrow.slick-next {
+    font-size: 0;
+    background: url(../../img/main_page-img/arrow-right.svg) 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.slick-arrow.slick-next:hover,
+.slick-arrow.slick-prev:hover {
+    border: 2px solid #777E91;
+}
+
+.latest-upload {
+    margin-top: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 864px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 311px;
+    }
+}
