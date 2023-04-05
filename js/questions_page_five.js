@@ -29,7 +29,7 @@ RIGHT_SLIDE.addEventListener('click', () => {
         line_score = 0;
         slider_cards.style.right = line_score + "px";
     }
-    line_score += 275;
+    line_score += 284;
     slider_cards.style.right = line_score + "px";
     line_page++;
     if (line_score > 1200) {
@@ -40,18 +40,18 @@ RIGHT_SLIDE.addEventListener('click', () => {
 })
 LEFT_SLIDE.addEventListener('click', () => {
     if (line_score > 0) {
-        line_score -= 275;
+        line_score -= 284;
         slider_cards.style.right = line_score + "px";
     }
     if (line_score < 0) {
-        line_score = 275;
+        line_score = 284;
         line_score = line_score * 4;
         slider_cards.style.right = line_score + "px";
         line_page = 5;
 
     }
     if (line_page == 0) {
-        line_score = 275;
+        line_score = 284;
         line_score = line_score * 4;
         slider_cards.style.right = line_score + "px";
         line_page = 5;

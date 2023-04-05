@@ -462,8 +462,8 @@
     justify-content: space-between;
 }
 .hot-bid__slider_cards_card{
-margin-right: 16px;
-margin-left: 5px;
+margin-right: 17px;
+margin-left: 9px;
 }
 .hot-bid__slider_cards_card_price-info-new {
     font-family: 'Poppins';
@@ -482,4 +482,7 @@ margin-left: 5px;
     position: relative;
     transition: all 0.3s ease;
     right: 0px;
+}
+.qiestions__main_tabs_adaptive{
+    display: none;
 }

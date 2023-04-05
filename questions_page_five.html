@@ -34,9 +34,7 @@
                 <div class="qiestions__main_tabs">
                     <div class="qiestions__main_tabs-item">
                         <img src="icons/1/general.svg" alt="" class="qiestions__main_tabs-item img-tabs">
-                        <!--<img src="icons/1/general copy.svg" alt="" class="qiestions__main_tabs-item img-tabs">-->
-                        <a href="#tab_01" class="qiestions__main_tabs-item text-tabs">General</a>
-                        <!--tab-active(если буду делать активку)-->
+                        <a href="#tab_01"  class="qiestions__main_tabs-item text-tabs">General</a>
                     </div>
 
                     <div class="qiestions__main_tabs-item">
@@ -52,6 +50,23 @@
                         <a href="#tab_04" class="qiestions__main_tabs-item text-tabs">Product</a>
                     </div>
                 </div>
+
+
+                <div class="qiestions__main_tabs_adaptive">
+                    <form id="myform">
+                        <select id="mymenu" onchange = "window.location=document.forms[0].mymenu.options[document.forms[0].mymenu.selectedIndex].value"  />
+                        <option class="qiestions__main_tabs-item_adaptive" value="#tab_01">General</option>
+                        <option class="qiestions__main_tabs-item_adaptive" value="#tab_02">Support</option>
+                        <option class="qiestions__main_tabs-item_adaptive" value="#tab_03">Hosting</option>
+                        <option class="qiestions__main_tabs-item_adaptive" value="#tab_04">Product</option>
+                        </select>
+                        </form>
+                </div>
+
+
+
+
+
                 <div id="tab_01" class="qiestions__main_tabs-body">
                     <div class="qiestions__main_tabs-block">
                         <div class="qiestions__main_tabs-block_line">
