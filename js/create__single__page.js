@@ -1,12 +1,37 @@
-let swiper = new Swiper(".mySwiper", {
-    loop: false,
-    spaceBetween: 30,
-    slidesPerView: 4,
-    mousewheel: true,
-    keyboard: true,
-  });
+let screenWidth = window.screen.width;
+  if (screenWidth == 1024){
+    let swiper = new Swiper(".mySwiper", {
+      loop: false,
+      spaceBetween: 8,
+      slidesPerView: 3,
+      mousewheel: true,
+      keyboard: true,
+    })}
+    else if(screenWidth == 375){
+        swiper = new Swiper(".mySwiper", {
+        loop: false,
+        spaceBetween: 8,
+        slidesPerView: 3,
+        mousewheel: true,
+        keyboard: true,
+      })}else{
+        swiper = new Swiper(".mySwiper", {
+          loop: false,
+          spaceBetween: 30,
+          slidesPerView: 4,
+          mousewheel: true,
+          keyboard: true,
+      })};
 
-
+//    if (условие1)
+//    инструкция1
+// else if (условие2)
+//    инструкция2
+// else if (условие3)
+//    инструкция3
+// ...
+// else
+//    инструкция
  const blockDowland = document.querySelector(".block__dowland");
 
 
@@ -65,5 +90,16 @@ modalClose.addEventListener('click', () => {
   modalMain.classList.remove("modal__active");
   modalBlock.classList.remove("modal__block-active");
 })
-
+const body = document.querySelector('.body');
+const modalPrew = document.querySelector('.adapt__block');
+const btnPrew = document.querySelector('.block__btn-final-prew')
+const btnPrewClose = document.querySelector('.block__preview-close')
+btnPrew.addEventListener('click',() => {
+  modalPrew.classList.add('prewActive');
+  body.style.opacity = "0.9";
+})
+btnPrewClose.addEventListener('click',() => {
+  modalPrew.classList.remove('prewActive');
+  body.style.opacity = "0.9";
+})
 
