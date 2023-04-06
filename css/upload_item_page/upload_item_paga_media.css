@@ -1,0 +1,133 @@
+@media (max-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        max-width: 864px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;  
+        align-items: baseline;
+    }
+
+    .Uploaditems {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .photo__navbar {
+        margin-right: 0px;
+    }
+
+    .carts__block {
+        width: 352px;
+        height: 360px;
+    }
+
+    .button {
+        margin-top: 22.04px;
+    }
+
+    .button-two {
+        margin-top: 22.04px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        margin: 0 auto;
+        max-width: 311px;
+    }
+
+    .Uploaditems {
+        display: none;
+    }
+
+    .navbar {
+        
+        display: flex;
+        justify-content: flex-start
+    }
+
+    .center__flex {
+        width: 311px;
+        height: 144px;
+    }
+
+    .block__center-text-two {
+        letter-spacing: 0em;
+
+    }
+
+    .block__carts {
+        display: none;
+    }
+
+    .pod__carts {
+        margin-top: 56px;
+        display: flex;
+
+    }
+
+    .block__pod__carts {
+        width: 249px;
+        height: 60px;
+    }
+
+    .cart__text {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #777E91;
+    }
+
+    .block__adaptive {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .block__adaptive-two {
+        justify-content: space-between;
+        margin-top: 32px;
+        display: flex;
+    }
+
+    .adaptive__block {
+        display: flex;
+        align-items: center;
+    }
+
+    .adaptive__text {
+        margin-left: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FCFCFD;
+    }
+
+    .adaptive {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__carts {
+        display: none;
+    }
+
+    .adaptive__photo {
+        margin-left: 102px;
+    }
+    .adaptive__photo-two {
+        margin-left: 88px;
+    }
+    .photo__adaptive-one{
+        margin-left: 32px;
+    }
+    .divider-adaptive {
+        display: block;
+    }
+}
