@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СrypterNFT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--font-family: 'Poppins', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--font-family: 'DM Sans', sans-serif;-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/card__page/card__page.css">
+    <link rel="stylesheet" href="./css/card__page/card__page-media.css">
+</head>
+<body>
+    <main>
+<div class="container">
+    <div class="title">
+        <a href=""><img src="./icons/1/arrow_left 2 way.svg" alt=""></a>
+        <a href="" class="title__text">Connect your wallet</a>
+    </div>
+
+    <div class="wallet">
+        <div class="wallet__main" id="main">
+            <div class="wallet__card" id="purple"  data-id="2">
+                <button class="wallet__icon-block">
+                    <img class="wallet__icon" src="./icons/1/purple_bag.svg" alt="">
+                </button>
+                <p class="wallet__text">
+                    Coinbase Wallet
+                </p>
+                <img class="wallet__arrow" src="./icons/1/right_white.svg" alt="">
+            </div>
+            <div class="wallet__card wallet__card_active" id="blue" data-id="1">
+                <button class="wallet__icon-block">
+                    <img class="wallet__icon" src="./icons/1/blue_bag.svg" alt="">
+                </button>
+                <p class="wallet__text">
+                    Coinbase Wallet
+                </p>
+                <img class="wallet__arrow" src="./icons/1/right_white.svg" alt="">
+            </div>
+            <div class="wallet__card" id="green" data-id="2">
+                <button class="wallet__icon-block">
+                    <img class="wallet__icon" src="./icons/1/green_bag.svg" alt="">
+                </button>
+                <p class="wallet__text">
+                    MyEtherWallet
+                </p>
+                <img class="wallet__arrow" src="./icons/1/right_white.svg" alt="">
+            </div>
+            <div class="wallet__card" id="pink"  data-id="3">
+                <button class="wallet__icon-block">
+                    <img class="wallet__icon" src="./icons/1/pink_bag.svg" alt="">
+                </button>
+                <p class="wallet__text">
+                    Wallet Connect
+                </p>
+                <img class="wallet__arrow" src="./icons/1/right_white.svg" alt="">
+            </div>
+        </div>
+        <div class="wallet__img">
+            <img class="wallet__img-QR" src="./img/card_page/QR Code.png" alt="">
+
+            <p class="wallet__img-title">
+                Scan to connect
+            </p>
+            <p class="wallet__img-title-text">
+                Powered by UI8.Wallet
+            </p>
+            <img class="wallet__img-icon" src="./img/card_page/QR_codeMain.png" alt="">
+            <button class="wallet__btn">
+                <p class="wallet__btn-text">Don’t have a wallet app?</p>
+            </button>
+            <div class="wallet__img-three">
+            <p class="wallet__img-title-two">
+                Terms of service
+            </p>
+            <p class="wallet__img-text-two">Please take a few minutes to read and understand  <span class="wallet__img-text-three">Stacks
+                Terms of Service</span>. To continue, you’ll need to accept the terms of services by checking the boxes.</p>
+                <img class="wallet__img-three-img" src="./img/card_page/rab.png" alt="">
+                <div class="wallet__checkbox">
+                    <input class="wallet__custom-checkbox" type="checkbox" name="check" id="check" value="1">
+                    <label for="check">I am at least 13 year old</label>        
+                </div>
+                <div class="wallet__checkbox wallet__checkbox_margin">
+                    <input class="wallet__custom-checkbox" type="checkbox" name="checkTwo" id="checkTwo" value="2">
+                    <label for="checkTwo">I agree Stack terms of service</label>        
+                </div>
+                <div class="wallet__img-btn__final">
+                    <button class="wallet__img-btn-one">
+                        <p class="wallet__img-btn-text">Cancel</p>
+                    </button>
+                    <button class="wallet__img-btn-two">
+                        <p class="wallet__img-btn-text">Get started now</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    </main>
+    <script src="./js/card__page.js"></script>
+</body>
+</html>
