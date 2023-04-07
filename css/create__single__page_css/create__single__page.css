@@ -44,7 +44,7 @@ body {
     height: 40px;
     border: 2px solid #353945;
     border-radius: 90px;
-
+    transition: 0.5s;
 }
 
 .block__btn-text {
@@ -367,7 +367,7 @@ body {
     border: 2px solid #353945;
     border-radius: 12px;
     margin-top: 12px;
-
+    transition: 0.5s;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -424,7 +424,7 @@ select {
     font-size: 14px;
     line-height: 24px;
     color: #FCFCFD;
-   
+    transition: 0.5s;
   }
 select:focus {
     background: url("./arrow__select-up.svg") no-repeat;
@@ -440,6 +440,7 @@ option{
     height: 44px;
     border: 2px solid #353945;
     border-radius: 12px;
+    transition: 0.5s;
 }
 
 input[type="number"] {
@@ -601,6 +602,7 @@ input[type="number"]::-webkit-outer-spin-button {
     align-items: center;
     cursor: pointer;
     border: 0;
+    transition: 0.5s;
 }
 
 .block__btn-text-final {
@@ -836,4 +838,26 @@ opacity: 0.5;
 }
 .block__btn-final-prew{
     display: none;
+}
+.block__btn:hover{
+    background: #3772FF;
+   
+    transition: 0.5s;
+    border: 2px solid #3772FF;
+}
+.block__btn-final:hover{
+    background-color: #044eff;
+    transition: 0.5s;
+}
+.block__inputs-one-block:focus{
+    border-color: #777e90;
+    transition: 0.5s;
+}
+.block__inputs-two-block:focus{
+    border-color: #777e90;
+    transition: 0.5s;
+}
+.select__head:hover{
+    border-color: #777e90;
+    transition: 0.5s;
 }
