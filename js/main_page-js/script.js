@@ -1,36 +1,44 @@
 
-    $('.main-slider-line').slick({
-        Infinite: true,
-        dots: false,
-        autoplay: false,
-        appendArrows: $('.descNft__arrows-group'),
-        fade: true,
-        speed: 1000
-    })
 const sellersBtn = document.querySelector('.pop-sellers__timeframe'),
     sellersWindow = document.querySelector('.pop-sellers__show-hide-block'),
     sellersContent = document.querySelectorAll('.pop-sellers__show-hide-text'),
     sellersContentBtn = document.getElementById('timeframeContent')
-sellersBtn.addEventListener('click', ()=>{
+
+
+
+sellersBtn.addEventListener('click', () => {
     sellersWindow.classList.toggle('pop-sellers__show-hide-block_active')
+
 })
-sellersContent.forEach((el)=>{
-    el.addEventListener('click', (elem)=>{
-        sellersContent.forEach((el)=>{
-            el.classList.remove('pop-sellers__show-hide-text_active')
+dropDownList(sellersContent, 'pop-sellers__show-hide-text_active',
+ 'pop-sellers__show-hide-block_active', sellersContentBtn, sellersWindow)
+
+const recentlyBtn = document.getElementById('recetly-added-btn'),
+    recentlyHideBlock = document.getElementById('recetly-added-hide-block'),
+    recentlyTitle = document.getElementById('d-main__date'),
+    recentlyText = document.querySelectorAll('.d-main__recently-added-text')
+
+recentlyBtn.addEventListener('click', () => {
+    recentlyHideBlock.classList.toggle('show-hide-block_active_height-recently')
+})
+dropDownList(recentlyText, 'show-hide-text_active','show-hide-block_active_height-recently',
+ recentlyTitle, recentlyHideBlock )
+    
+
+function dropDownList(array, classAdd, classRemove, elementOne, elementTwo) {
+    array.forEach((el) => {
+        el.addEventListener('click', (elem) => {
+            array.forEach((el) => {
+                el.classList.remove(classAdd)
+            })
+            elementOne.innerHTML = elem.target.outerText
+            elem.target.classList.add(classAdd)
+            elementTwo.classList.remove(classRemove)
+
         })
-        sellersContentBtn.innerHTML = elem.target.outerText
-        elem.target.classList.add('pop-sellers__show-hide-text_active')
-        sellersWindow.classList.remove('pop-sellers__show-hide-block_active')
-        
     })
-})
-$('.pop-sellers__slider-line').slick({
-    slidesToShow: 5,
-    infinite: false,
-    centerPadding: '60px',
-    adaptiveHeight: true,
-    adaptiveHeight: true,
-    slidesToScroll: 4,
-});
+}
+
+
+
 
