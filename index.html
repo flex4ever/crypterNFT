@@ -363,11 +363,14 @@
                 </div>
               </div>
             </div>
+            <p class="latest-upload__creators-title latest-upload__creators-title_addaptive-visible">
+                Latest upload from creators 🔥
+              </p>
             <div class="latest-upload__creators-block">
               <p class="latest-upload__creators-title">
                 Latest upload from creators 🔥
               </p>
-              <div class="latest-upload__creator">
+              <div class="latest-upload__creator latest-upload__creator_width-addaptive">
                 <img
                   src="./img/main_page-img/six.png"
                   alt=""
@@ -927,6 +930,11 @@
                 </p>
               </div>
             </div>
+            <div class="flex-wrapper flex-wrapper_jcc pop-sellers__buttons-addaptive_mt-visible">
+              <div class="pop-sellers__buttons-addaptive">
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1454,7 +1462,12 @@
       </div>
       <div class="hot-collections">
         <div class="container">
-          <p class="hot-collections__title">Hot collections</p>
+          <div class="flex-wrapper flex-wrapper_jcsb">
+            <p class="hot-collections__title">Hot collections</p>
+            <div class="hot-collections__buttons-block-addaptive">
+
+            </div>
+          </div>
 
           <div class="hot-collections__card-block">
             <div class="hot-collections__card hot-collections__card_margin">
@@ -1623,20 +1636,662 @@
                 </div>
               </div>
               <div class="d-main__buttonsGroup">
-                <button class="d-main__btn-categories"></button>
-                <button class="d-main__btn-categories"></button>
-                <button class="d-main__btn-categories"></button
-                ><button class="d-main__btn-categories"></button
-                ><button class="d-main__btn-categories"></button
-                ><button class="d-main__btn-categories"></button>
+                <button
+                  class="d-main__btn-categories d-main__btn-categories_active"
+                >
+                  All items
+                </button>
+                <button class="d-main__btn-categories">Art</button>
+                <button class="d-main__btn-categories">Game</button>
+                <button class="d-main__btn-categories">Photography</button>
+                <button class="d-main__btn-categories">Music</button>
+                <button class="d-main__btn-categories">Video</button>
               </div>
-              <button class="d-main__filter-btn"></button>
+              <button class="d-main__filter-btn">
+                <p>Filter</p>
+                <img
+                  src="./img/main_page-img/🦆 icon _filter search_.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="d-main__filtres-block">
+              <div class="d-main__price-block">
+                <p class="d-main__btn-title">Price</p>
+                <div class="button-drop-list">
+                  <div
+                    class="button-drop-list-visible-content"
+                    id="d-main__priceBtn"
+                  >
+                    <p id="d-main__priceBtnContent">Highest price</p>
+                    <img src="./icons/1/arrow_down_simple.svg" alt="" />
+                  </div>
+                  <div class="show-hide-block" id="d-main__price-block">
+                    <p
+                      class="show-hide-text-drop-list show-hide-text_active d-main__price-text d-main__price-hide-text"
+                    >
+                      Highest price
+                    </p>
+                    <p class="show-hide-text-drop-list d-main__price-hide-text">
+                      Lowest price
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-main__likes-block">
+                <p class="d-main__btn-title">likes</p>
+                <div class="button-drop-list">
+                  <div
+                    class="button-drop-list-visible-content"
+                    id="d-main__LikesBtn"
+                  >
+                    <p id="d-main__LikesContentBtn">Most liked</p>
+                    <img src="./icons/1/arrow_down_simple.svg" alt="" />
+                  </div>
+                  <div class="show-hide-block" id="d-main__likes-hide-block">
+                    <p
+                      class="show-hide-text-drop-list show-hide-text_active d-main__likes-hide-text"
+                    >
+                      Most liked
+                    </p>
+                    <p class="show-hide-text-drop-list d-main__likes-hide-text">
+                      Least likes
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-main__creator-block">
+                <p class="d-main__btn-title">Creator</p>
+                <div class="button-drop-list">
+                  <div
+                    class="button-drop-list-visible-content"
+                    id="d-main__creatorBtn"
+                  >
+                    <p id="d-main__creatorContentBtn">Verified only</p>
+                    <img src="./icons/1/arrow_down_simple.svg" alt="" />
+                  </div>
+                  <div class="show-hide-block" id="d-main__creatorShowBlock">
+                    <p
+                      class="show-hide-text-drop-list show-hide-text_active d-main__creator-drop-list-btn-txt"
+                    >
+                      Verified only
+                    </p>
+                    <p
+                      class="show-hide-text-drop-list d-main__creator-drop-list-btn-txt"
+                    >
+                      Mixed
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-main__input-block">
+                <p class="d-main__btn-title">Price range</p>
+                <div class="d-main__input-block-wrap">
+                  <div class="d-main__input-block-input-num">5</div>
+                  <input
+                    type="range"
+                    name=""
+                    id="d-main__input-range"
+                    class="d-main__input-block-input"
+                    min="0.01"
+                    max="10"
+                    value="5"
+                    step="0.01"
+                  />
+                </div>
+                <div class="d-main__input-block-crite-range">
+                  <p>0.01 ETH</p>
+                  <p>10 ETH</p>
+                </div>
+              </div>
+            </div>
+            <div class="dicover__cards-block">
+            <div class="hot-bid-slider__card">
+              <div
+                class="hot-bid-slider__card-img-wrap discover__card-img-wrap_img-one"
+              >
+                <div class="hot-bid-slider__card-img-hover">
+                  <div
+                    class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width"
+                  >
+                    <div class="hot-bid-slider__card-img-hover-text">
+                      <p>purchasing !</p>
+                    </div>
+                    <div class="hot-bid__like">
+                      <img src="./icons/1/❤️.svg" alt="" />
+                    </div>
+                  </div>
+                  <button class="hot-bid__card-img-hover-btn">
+                    <p>Place a bid</p>
+                    <img src="./img/main_page-img/scatterUpIcon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-title-block">
+                <p class="hot-bid-slider__card-title-txt">
+                  Amazing digital art
+                </p>
+                <div class="hot-bid-slider__card-title-price">
+                  <p>2.45 ETH</p>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-creators-block">
+                <div class="hot-bid-slider__card-creators">
+                  <img
+                    src="./img/main_page-img/userViolet.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator"
+                  />
+                  <img
+                    src="./img/main_page-img/userPink.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position"
+                  />
+                  <img
+                    src="./img/main_page-img/userGreen.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position2x"
+                  />
+                </div>
+                <p class="hot-bid-slider__card-creators-quantity">3 in stock</p>
+              </div>
+              <div class="hot-bid-slider__card-information-block">
+                <div class="flex-wrapper">
+                  <img src="./img/main_page-img/candleSticksIcon.svg" alt="" />
+                  <p class="hot-bid-slider__card-information-txt">
+                    Highest bid
+                    <span class="hot-bid-slider__card-information-strong"
+                      >0.001 ETH</span
+                    >
+                  </p>
+                </div>
+                <p class="hot-bid-slider__card-information-desc-txt">
+                  New bid 🔥
+                </p>
+              </div>
+            </div>
+            <div class="hot-bid-slider__card">
+              <div
+                class="hot-bid-slider__card-img-wrap discover__card-img-wrap_img-two "
+              >
+                <div class="hot-bid-slider__card-img-hover">
+                  <div
+                    class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width"
+                  >
+                    <div class="hot-bid-slider__card-img-hover-text">
+                      <p>purchasing !</p>
+                    </div>
+                    <div class="hot-bid__like">
+                      <img src="./icons/1/❤️.svg" alt="" />
+                    </div>
+                  </div>
+                  <button class="hot-bid__card-img-hover-btn">
+                    <p>Place a bid</p>
+                    <img src="./img/main_page-img/scatterUpIcon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-title-block">
+                <p class="hot-bid-slider__card-title-txt">
+                  Amazing digital art
+                </p>
+                <div class="hot-bid-slider__card-title-price">
+                  <p>2.45 ETH</p>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-creators-block">
+                <div class="hot-bid-slider__card-creators">
+                  <img
+                    src="./img/main_page-img/userViolet.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator"
+                  />
+                  <img
+                    src="./img/main_page-img/userPink.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position"
+                  />
+                  <img
+                    src="./img/main_page-img/userGreen.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position2x"
+                  />
+                </div>
+                <p class="hot-bid-slider__card-creators-quantity">3 in stock</p>
+              </div>
+              <div class="hot-bid-slider__card-information-block">
+                <div class="flex-wrapper">
+                  <img src="./img/main_page-img/candleSticksIcon.svg" alt="" />
+                  <p class="hot-bid-slider__card-information-txt">
+                    Highest bid
+                    <span class="hot-bid-slider__card-information-strong"
+                      >0.001 ETH</span
+                    >
+                  </p>
+                </div>
+                <p class="hot-bid-slider__card-information-desc-txt">
+                  New bid 🔥
+                </p>
+              </div>
+            </div>
+            <div class="hot-bid-slider__card">
+              <div
+                class="hot-bid-slider__card-img-wrap hot-bid-slider__card-img-wrap_img-three"
+              >
+                <div class="hot-bid-slider__card-img-hover">
+                  <div
+                    class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width"
+                  >
+                    <div class="hot-bid-slider__card-img-hover-text">
+                      <p>purchasing !</p>
+                    </div>
+                    <div class="hot-bid__like">
+                      <img src="./icons/1/❤️.svg" alt="" />
+                    </div>
+                  </div>
+                  <button class="hot-bid__card-img-hover-btn">
+                    <p>Place a bid</p>
+                    <img src="./img/main_page-img/scatterUpIcon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-title-block">
+                <p class="hot-bid-slider__card-title-txt">
+                  Amazing digital art
+                </p>
+                <div class="hot-bid-slider__card-title-price">
+                  <p>2.45 ETH</p>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-creators-block">
+                <div class="hot-bid-slider__card-creators">
+                  <img
+                    src="./img/main_page-img/userViolet.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator"
+                  />
+                  <img
+                    src="./img/main_page-img/userPink.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position"
+                  />
+                  <img
+                    src="./img/main_page-img/userGreen.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position2x"
+                  />
+                </div>
+                <p class="hot-bid-slider__card-creators-quantity">3 in stock</p>
+              </div>
+              <div class="hot-bid-slider__card-information-block">
+                <div class="flex-wrapper">
+                  <img src="./img/main_page-img/candleSticksIcon.svg" alt="" />
+                  <p class="hot-bid-slider__card-information-txt">
+                    Highest bid
+                    <span class="hot-bid-slider__card-information-strong"
+                      >0.001 ETH</span
+                    >
+                  </p>
+                </div>
+                <p class="hot-bid-slider__card-information-desc-txt">
+                  New bid 🔥
+                </p>
+              </div>
+            </div>
+            <div class="hot-bid-slider__card">
+              <div
+                class="hot-bid-slider__card-img-wrap discover__card-img-wrap_img-four"
+              >
+                <div class="hot-bid-slider__card-img-hover">
+                  <div
+                    class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width"
+                  >
+                    <div class="hot-bid-slider__card-img-hover-text">
+                      <p>purchasing !</p>
+                    </div>
+                    <div class="hot-bid__like">
+                      <img src="./icons/1/❤️.svg" alt="" />
+                    </div>
+                  </div>
+                  <button class="hot-bid__card-img-hover-btn">
+                    <p>Place a bid</p>
+                    <img src="./img/main_page-img/scatterUpIcon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-title-block">
+                <p class="hot-bid-slider__card-title-txt">
+                  Amazing digital art
+                </p>
+                <div class="hot-bid-slider__card-title-price">
+                  <p>2.45 ETH</p>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-creators-block">
+                <div class="hot-bid-slider__card-creators">
+                  <img
+                    src="./img/main_page-img/userViolet.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator"
+                  />
+                  <img
+                    src="./img/main_page-img/userPink.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position"
+                  />
+                  <img
+                    src="./img/main_page-img/userGreen.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position2x"
+                  />
+                </div>
+                <p class="hot-bid-slider__card-creators-quantity">3 in stock</p>
+              </div>
+              <div class="hot-bid-slider__card-information-block">
+                <div class="flex-wrapper">
+                  <img src="./img/main_page-img/candleSticksIcon.svg" alt="" />
+                  <p class="hot-bid-slider__card-information-txt">
+                    Highest bid
+                    <span class="hot-bid-slider__card-information-strong"
+                      >0.001 ETH</span
+                    >
+                  </p>
+                </div>
+                <p class="hot-bid-slider__card-information-desc-txt">
+                  New bid 🔥
+                </p>
+              </div>
+            </div>
+            <div class="hot-bid-slider__card">
+              <div
+                class="hot-bid-slider__card-img-wrap hot-bid-slider__card-img-wrap_img-one"
+              >
+                <div class="hot-bid-slider__card-img-hover">
+                  <div
+                    class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width"
+                  >
+                    <div class="hot-bid-slider__card-img-hover-text">
+                      <p>purchasing !</p>
+                    </div>
+                    <div class="hot-bid__like">
+                      <img src="./icons/1/❤️.svg" alt="" />
+                    </div>
+                  </div>
+                  <button class="hot-bid__card-img-hover-btn">
+                    <p>Place a bid</p>
+                    <img src="./img/main_page-img/scatterUpIcon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-title-block">
+                <p class="hot-bid-slider__card-title-txt">
+                  Amazing digital art
+                </p>
+                <div class="hot-bid-slider__card-title-price">
+                  <p>2.45 ETH</p>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-creators-block">
+                <div class="hot-bid-slider__card-creators">
+                  <img
+                    src="./img/main_page-img/userViolet.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator"
+                  />
+                  <img
+                    src="./img/main_page-img/userPink.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position"
+                  />
+                  <img
+                    src="./img/main_page-img/userGreen.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position2x"
+                  />
+                </div>
+                <p class="hot-bid-slider__card-creators-quantity">3 in stock</p>
+              </div>
+              <div class="hot-bid-slider__card-information-block">
+                <div class="flex-wrapper">
+                  <img src="./img/main_page-img/candleSticksIcon.svg" alt="" />
+                  <p class="hot-bid-slider__card-information-txt">
+                    Highest bid
+                    <span class="hot-bid-slider__card-information-strong"
+                      >0.001 ETH</span
+                    >
+                  </p>
+                </div>
+                <p class="hot-bid-slider__card-information-desc-txt">
+                  New bid 🔥
+                </p>
+              </div>
+            </div>
+            <div class="hot-bid-slider__card">
+              <div
+                class="hot-bid-slider__card-img-wrap discover__card-img-wrap_img-six "
+              >
+                <div class="hot-bid-slider__card-img-hover">
+                  <div
+                    class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width"
+                  >
+                    <div class="hot-bid-slider__card-img-hover-text">
+                      <p>purchasing !</p>
+                    </div>
+                    <div class="hot-bid__like">
+                      <img src="./icons/1/❤️.svg" alt="" />
+                    </div>
+                  </div>
+                  <button class="hot-bid__card-img-hover-btn">
+                    <p>Place a bid</p>
+                    <img src="./img/main_page-img/scatterUpIcon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-title-block">
+                <p class="hot-bid-slider__card-title-txt">
+                  Amazing digital art
+                </p>
+                <div class="hot-bid-slider__card-title-price">
+                  <p>2.45 ETH</p>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-creators-block">
+                <div class="hot-bid-slider__card-creators">
+                  <img
+                    src="./img/main_page-img/userViolet.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator"
+                  />
+                  <img
+                    src="./img/main_page-img/userPink.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position"
+                  />
+                  <img
+                    src="./img/main_page-img/userGreen.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position2x"
+                  />
+                </div>
+                <p class="hot-bid-slider__card-creators-quantity">3 in stock</p>
+              </div>
+              <div class="hot-bid-slider__card-information-block">
+                <div class="flex-wrapper">
+                  <img src="./img/main_page-img/candleSticksIcon.svg" alt="" />
+                  <p class="hot-bid-slider__card-information-txt">
+                    Highest bid
+                    <span class="hot-bid-slider__card-information-strong"
+                      >0.001 ETH</span
+                    >
+                  </p>
+                </div>
+                <p class="hot-bid-slider__card-information-desc-txt">
+                  New bid 🔥
+                </p>
+              </div>
+            </div>
+            <div class="hot-bid-slider__card hot-bid-slider__card_addaptive-visible">
+              <div
+                class="hot-bid-slider__card-img-wrap hot-bid-slider__card-img-wrap_img-four"
+              >
+                <div class="hot-bid-slider__card-img-hover">
+                  <div
+                    class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width"
+                  >
+                    <div class="hot-bid-slider__card-img-hover-text">
+                      <p>purchasing !</p>
+                    </div>
+                    <div class="hot-bid__like">
+                      <img src="./icons/1/❤️.svg" alt="" />
+                    </div>
+                  </div>
+                  <button class="hot-bid__card-img-hover-btn">
+                    <p>Place a bid</p>
+                    <img src="./img/main_page-img/scatterUpIcon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-title-block">
+                <p class="hot-bid-slider__card-title-txt">
+                  Amazing digital art
+                </p>
+                <div class="hot-bid-slider__card-title-price">
+                  <p>2.45 ETH</p>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-creators-block">
+                <div class="hot-bid-slider__card-creators">
+                  <img
+                    src="./img/main_page-img/userViolet.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator"
+                  />
+                  <img
+                    src="./img/main_page-img/userPink.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position"
+                  />
+                  <img
+                    src="./img/main_page-img/userGreen.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position2x"
+                  />
+                </div>
+                <p class="hot-bid-slider__card-creators-quantity">3 in stock</p>
+              </div>
+              <div class="hot-bid-slider__card-information-block">
+                <div class="flex-wrapper">
+                  <img src="./img/main_page-img/candleSticksIcon.svg" alt="" />
+                  <p class="hot-bid-slider__card-information-txt">
+                    Highest bid
+                    <span class="hot-bid-slider__card-information-strong"
+                      >0.001 ETH</span
+                    >
+                  </p>
+                </div>
+                <p class="hot-bid-slider__card-information-desc-txt">
+                  New bid 🔥
+                </p>
+              </div>
+            </div>
+            <div class="hot-bid-slider__card hot-bid-slider__card_addaptive-visible">
+              <div
+                class="hot-bid-slider__card-img-wrap discover__card-img-wrap_img-two"
+              >
+                <div class="hot-bid-slider__card-img-hover">
+                  <div
+                    class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width"
+                  >
+                    <div class="hot-bid-slider__card-img-hover-text">
+                      <p>purchasing !</p>
+                    </div>
+                    <div class="hot-bid__like">
+                      <img src="./icons/1/❤️.svg" alt="" />
+                    </div>
+                  </div>
+                  <button class="hot-bid__card-img-hover-btn">
+                    <p>Place a bid</p>
+                    <img src="./img/main_page-img/scatterUpIcon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-title-block">
+                <p class="hot-bid-slider__card-title-txt">
+                  Amazing digital art
+                </p>
+                <div class="hot-bid-slider__card-title-price">
+                  <p>2.45 ETH</p>
+                </div>
+              </div>
+              <div class="hot-bid-slider__card-creators-block">
+                <div class="hot-bid-slider__card-creators">
+                  <img
+                    src="./img/main_page-img/userViolet.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator"
+                  />
+                  <img
+                    src="./img/main_page-img/userPink.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position"
+                  />
+                  <img
+                    src="./img/main_page-img/userGreen.png"
+                    alt=""
+                    class="hot-bid-slider__card-creator hot-bid-slider__card-creator_position2x"
+                  />
+                </div>
+                <p class="hot-bid-slider__card-creators-quantity">3 in stock</p>
+              </div>
+              <div class="hot-bid-slider__card-information-block">
+                <div class="flex-wrapper">
+                  <img src="./img/main_page-img/candleSticksIcon.svg" alt="" />
+                  <p class="hot-bid-slider__card-information-txt">
+                    Highest bid
+                    <span class="hot-bid-slider__card-information-strong"
+                      >0.001 ETH</span
+                    >
+                  </p>
+                </div>
+                <p class="hot-bid-slider__card-information-desc-txt">
+                  New bid 🔥
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="discover__loading-more-wrap">
+              <div class="discover__loading-more">
+                <p>Load more</p>
+                <div class="discover__load-more-anim">
+                  <img src="./img/main_page-img/loadingIcon.svg" alt="" class="discover__loading-img">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="crypto">
+          <div class="container">
+            <div class="flex-wrapper flex-wrapper_jcsb">
+              <div class="crypto__text-block">
+                <p class="crypto__preface-txt">
+                  Save your time with Stacks
+                </p>
+                <p class="crypto__title-txt">
+                  Earn free crypto with Crypter
+                </p>
+                <p class="crypto__desc-text">
+                  A creative agency that lead and inspire
+                </p>
+                <div class="crypto__btn-group">
+                  <button class="crypto__btn crypto__btn_background">Earn now</button>
+                  <button class="crypto__btn crypto__btn_margin">Discover more</button>
+                </div>
+              </div>
+              <img src="./img/main_page-img/CoinsMain.png" alt="" class="crypto__mainImg">
+            </div>
+          </div>
+        </div>
     </main>
     <script src="js/main_page-js/jquery.min.js"></script>
     <script

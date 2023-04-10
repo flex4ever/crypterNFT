@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+.flex-wrapper_jcc {
+    justify-content: center;
+}
+
 .flex-wrapper_jcsb {
     justify-content: space-between;
 }
@@ -436,6 +440,10 @@
     color: #FCFCFD;
 }
 
+.latest-upload__creators-title_addaptive-visible{
+    display: none;
+}
+
 .creator_pink-bg {
     background: rgb(159, 80, 94);
 }
@@ -681,13 +689,19 @@
 }
 
 .show-hide-block_active {
-    height: fit-content !important;
+    height: min-content !important;
     border: 2px solid #535353;
     border-top: none;
 }
 
 .show-hide-block_active_height-recently {
     height: 98px !important;
+    border: 2px solid #535353;
+    border-top: none;
+}
+
+.show-hide-block_active_height-price {
+    height: 50px !important;
     border: 2px solid #535353;
     border-top: none;
 }
@@ -701,10 +715,10 @@
     padding-left: 16px;
     position: absolute;
     overflow: hidden;
-    height: 0;
+    height: 0%;
     background: #353945;
     border-radius: 5px;
-    width: 268px;
+    width: 236px;
     transition: height 0.3s ease;
     z-index: 1;
     margin-top: 2px;
@@ -721,7 +735,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 256px;
+    width: 230px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -732,7 +746,7 @@
 }
 
 .button-drop-list-visible-content_fit-content {
-    width: fit-content;
+    width: 153px;
 }
 
 .button-drop-list-visible-content_fit-content img {
@@ -750,6 +764,10 @@
     font-size: 14px;
     line-height: 24px;
     color: #FCFCFD;
+}
+
+.pop-sellers__buttons-addaptive_mt-visible {
+    display: none;
 }
 
 .pop-sellers__show-hide-block {
@@ -1142,6 +1160,9 @@
 .hot-collections__card-block {
     margin-top: 80px;
 }
+.hot-collections__card-block .slick-list {
+    overflow: hidden;
+}
 
 .hot-colletions__card-btn {
     padding: 8px 8px 6px;
@@ -1170,6 +1191,12 @@
     color: #E6E8EC;
     margin-left: 5px;
 }
+
+.hot-collections__buttons-block-addaptive {
+    display: none;
+}
+
+
 
 .hot-collections__card-desc-block {
     display: flex;
@@ -1202,6 +1229,8 @@
 .hot-collections__card-block {
     display: flex;
     overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 .hot-collections__card_margin {
@@ -1212,7 +1241,7 @@
     width: 100%;
 } */
 .hot-collections__card-block .slick-slide {
-    width: 352px !important;
+    max-width: 352px;
     height: 405px;
 }
 
@@ -1227,6 +1256,283 @@
     margin-top: 128px;
 }
 
+.d-main__main-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 42px;
+
+}
+
+.d-main__main-buttons_active {
+    border-bottom: 1px solid #353945;
+    transition: border-bottom 0.3s ease;
+}
+
+
+.d-main__btn-categories {
+    border: none;
+    background: none;
+    border-radius: 100px;
+    padding: 6px 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCFD;
+}
+
+.d-main__btn-categories_active,
+.d-main__btn-categories:hover {
+    background: #353945;
+}
+
+.d-main__filtres-block {
+    height: 0;
+    opacity: 0;
+    transition: all 0.15s ease;
+}
+
+.dicover__cards-block {
+    transition: all 0.3s ease;
+}
+
+
+.d-main__filtres-block_active {
+    height: 120px;
+    opacity: 1;
+}
+
+.d-main__filter-btn {
+    background: #3772FF;
+    border-radius: 90px;
+    padding: 16px 24px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FCFCFD;
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+.d-main__filter-btn img {
+    width: 13px;
+    height: 13px;
+    margin-left: 15px;
+}
+
+.d-main__btn-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #B1B5C4;
+    margin-top: 32px;
+}
+
+.d-main__filtres-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.d-main__input-block {
+    width: 240px;
+}
+
+.d-main__input-block-input {
+    width: 100%;
+}
+
+.d-main__input-block-wrap {
+    position: relative;
+    height: 47px;
+}
+
+.d-main__input-block-input {
+    position: absolute;
+    bottom: 0;
+}
+
+.d-main__input-block-input-num {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 46%;
+    font-family: 'Poppins';
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FCFCFD;
+}
+
+.d-main__input-block-crite-range {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FCFCFD;
+}
+
+.dicover__cards-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 915px;
+}
+
+.dicover__cards-block_active-margin {
+    margin-top: 32px;
+}
+
+.dicover__cards-block .hot-bid-slider__card {
+    margin-right: 0;
+}
+
+.discover__card-img-wrap_img-one {
+    background: url(../../img/main_page-img/discoverF1.png) no-repeat !important;
+    background-size: cover;
+}
+
+.discover__card-img-wrap_img-two {
+    background: url(../../img/main_page-img/DiscoverF2.png) no-repeat !important;
+    background-size: cover;
+}
+
+.discover__card-img-wrap_img-four {
+    background: url(../../img/main_page-img/discoverF4.png) no-repeat !important;
+    background-size: cover;
+}
+
+.discover__card-img-wrap_img-six {
+    background: url(../../img/main_page-img/discoverF5.png) no-repeat !important;
+    background-size: cover;
+}
+
+.discover__loading-more {
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    padding: 12px 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover__loading-more-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.discover__load-more-anim {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.discover__loading-img {
+    animation: roundLoading 1.8s infinite;
+}
+
+@keyframes roundLoading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.crypto {
+    padding: 80px 0px;
+    margin-top: 128px;
+    border-top: 1px solid #353945;
+
+}
+
+.crypto__preface-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #777E91;
+}
+
+.crypto__title-txt {
+    margin-top: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: #FCFCFD;
+}
+
+.crypto__desc-text {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E91;
+}
+
+.crypto__btn-group {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.crypto__btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FCFCFD;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    padding: 16px 24px;
+    background: none;
+}
+
+.crypto__btn_background {
+    border: none;
+    background: #3772FF;
+}
+
+.crypto__btn_margin {
+    margin-left: 16px;
+}
 
 
 
@@ -1259,6 +1565,123 @@
 @media (max-width: 1024px) {
     .container {
         max-width: 864px;
+    }
+
+    .mainNft__photo {
+        border-radius: 16px;
+        width: 478px;
+        height: 780px;
+    }
+
+    .descNft__arrows-group {
+        margin-top: 40px;
+        position: absolute;
+        top: 1077px;
+        left: 584px;
+        z-index: 1000;
+    }
+
+    .latest-upload__cards-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+
+    .latest-upload__creator_bord-top {
+        border-top: none;
+    }
+
+    .latest-upload__creator_width-addaptive {
+        width: 100%;
+    }
+
+    .latest-upload__creators-title_addaptive-visible {
+        display: block !important;
+        margin-top: 30px;
+    }
+
+    .latest-upload__creators-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #777E91;
+        display: none;
+    }
+
+    .latest-upload__creators-get-more-btn {
+        width: 158px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: none;
+        border: 2px solid #777E91;
+        border-radius: 90px;
+        padding: 8px 12px;
+        transition: 0.5s all ease;
+        display: none;
+    }
+
+    .latest-upload__creators-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-left: none;
+        padding-left: 28px;
+        width: 100%;
+    }
+
+    .hot-bid-slider__card_addaptive-visible {
+        display: none;
+    }
+
+    .pop-sellers__slider-line .slick-arrow {
+        font-size: 0;
+        position: static;
+    }
+
+    .pop-sellers__slider-line .slick-arrow.slick-next {
+        right: 0;
+    }
+
+    .pop-sellers__slider-line .slick-arrow.slick-prev {
+        left: 0;
+    }
+
+    .pop-sellers__buttons-addaptive_mt-visible {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .hot-bid-slider__card {
+        width: 256px !important;
+        border-radius: 0px 0px 16px 16px;
+        margin-right: 35px;
+    }
+
+    .hot-collections__buttons-block-addaptive {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .button-drop-list-visible-content {
+        width: 158px;
+
+    }
+
+    .show-hide-block {
+
+        width: 164px;
+
+    }
+    .crypto__mainImg{
+        width: 414px;
     }
 }
 
