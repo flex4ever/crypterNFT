@@ -54,6 +54,14 @@ inputRange.addEventListener('input', function(){
 
 })
 ////////////////////////////////////////////////////
+const categoriesBtn = document.getElementById('AllItems-added-btn'),
+    categoriesHideBlock = document.getElementById('AllItems-added-hide-block'),
+    categoriesTitle = document.getElementById('AllItems__item'),
+    categoriesText = document.querySelectorAll('.d-main__AllItems-added-text')
+
+toggleClass(categoriesBtn, categoriesHideBlock, 'show-hide-block_active_height-price')
+dropDownList(categoriesText, 'show-hide-text_active', 'show-hide-block_active_height-price', categoriesTitle, categoriesHideBlock)
+////////////////////////////////////////////////////
 const filtresBlock = document.querySelector('.d-main__filtres-block'),
     filtresBtn = document.querySelector('.d-main__filter-btn'),
     borderBlockBtn = document.querySelector('.d-main__main-buttons')

@@ -35,6 +35,12 @@
     width: 100%;
 }
 
+.addaptive-flex-wrapper_wrap {
+    flex-wrap: wrap;
+}
+
+
+
 .main-block {
     background: #141416;
     padding-top: 128px;
@@ -440,7 +446,7 @@
     color: #FCFCFD;
 }
 
-.latest-upload__creators-title_addaptive-visible{
+.latest-upload__creators-title_addaptive-visible {
     display: none;
 }
 
@@ -935,7 +941,7 @@
 }
 
 .hot-bid-slider__card {
-    width: 256px !important;
+    width: 256px;
     border-radius: 0px 0px 16px 16px;
     margin-right: 27px;
 }
@@ -1160,6 +1166,7 @@
 .hot-collections__card-block {
     margin-top: 80px;
 }
+
 .hot-collections__card-block .slick-list {
     overflow: hidden;
 }
@@ -1534,6 +1541,52 @@
     margin-left: 16px;
 }
 
+.latest-upload__creators-block .slick-list {
+    overflow: hidden;
+}
+
+.latest-upload__creators-block .slick-arrow {
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    height: 0;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.d-main__buttonsGroup-drop-list-mobile {
+    display: none;
+}
+
+.d-main__filter-btn-mobile {
+    display: none;
+    background: #3772FF;
+    border-radius: 90px;
+    padding: 16px 24px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+    margin-top: 12px;
+}
+
+.hot-collections__btn-mobile {
+    display: none;
+}
+
+.discover-cards-slider-mobile_buttons {
+    display: none;
+    margin-top: 30px;
+
+}
+
+
 
 
 
@@ -1659,7 +1712,7 @@
     }
 
     .hot-bid-slider__card {
-        width: 256px !important;
+        width: 256px;
         border-radius: 0px 0px 16px 16px;
         margin-right: 35px;
     }
@@ -1680,7 +1733,8 @@
         width: 164px;
 
     }
-    .crypto__mainImg{
+
+    .crypto__mainImg {
         width: 414px;
     }
 }
@@ -1690,5 +1744,144 @@
 @media (max-width: 425px) {
     .container {
         max-width: 311px;
+    }
+
+    .mainNft {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 130px;
+        flex-direction: column;
+    }
+
+    .mainNft__photo {
+        border-radius: 16px;
+        width: 100%;
+        height: 478px;
+    }
+
+    .descNft {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .auctionNft {
+        width: 100%;
+        height: 296px;
+        background: #23262F;
+        box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+        border-radius: 24px;
+        padding-top: 32px;
+        margin-top: 42px;
+    }
+
+    .descNft__arrows-group {
+        margin-top: 40px;
+        position: static;
+        margin-left: 33%;
+        z-index: 1000;
+    }
+
+    .latest-upload__main-card-img {
+        width: 100%;
+    }
+
+    .latest-upload__other-cards {
+        display: none;
+    }
+
+    .addaptive-flex-wrapper_wrap .pop-sellers__timeframe-block {
+        margin-top: 24px;
+    }
+
+    .latest-upload__highest-bid-price {
+        border: 2px solid #45B36B;
+        border-radius: 4px;
+        padding: 3px 0px 5px 3px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #45B36B;
+    }
+
+    .latest-upload__main-card-title {
+        font-size: 16px;
+
+    }
+
+    .d-main__buttonsGroup {
+        display: none;
+    }
+
+    .d-main__buttonsGroup-drop-list-mobile {
+        display: block;
+    }
+
+    .d-main__main-buttons {
+        flex-direction: column;
+    }
+
+    .d-main__buttonsGroup-drop-list-mobile .show-hide-block_active_height-price {
+        height: 145px !important;
+        border: 2px solid #535353;
+        border-top: none;
+    }
+
+    .d-main__filter-btn {
+        display: none;
+    }
+
+    .d-main__filter-btn-mobile {
+        display: block;
+    }
+
+    #AllItems-added-btn,
+    #recetly-added-btn {
+        width: 90%;
+    }
+
+    .d-main__main-buttons {
+
+        align-items: stretch;
+
+    }
+
+    .hot-collections__btn-mobile {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .dicover__cards-block {
+        height: fit-content;
+    }
+
+    .discover-cards-slider-mobile_buttons {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .dicover__cards-block .hot-bid-slider__card {
+        margin-right: 16px;
+    }
+
+    .discover__loading-more-wrap {
+        display: none;
+    }
+
+    .addaptive-flex-wrapper_fdc {
+        flex-direction: column;
+    }
+
+    .crypto__mainImg {
+        width: 294px;
+        margin-top: 30px;
+    }
+    .d-main__filtres-block{
+        display: none;
     }
 }
