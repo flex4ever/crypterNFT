@@ -15,6 +15,7 @@
 }
 
 body {
+    width: 100%;
     background-color: #141416;
 }
 
@@ -43,7 +44,7 @@ body {
     height: 40px;
     border: 2px solid #353945;
     border-radius: 90px;
-
+    transition: 0.5s;
 }
 
 .block__btn-text {
@@ -366,7 +367,7 @@ body {
     border: 2px solid #353945;
     border-radius: 12px;
     margin-top: 12px;
-
+    transition: 0.5s;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -399,6 +400,11 @@ body {
     text-transform: uppercase;
     color: #B1B5C4;
 }
+.block__btn-img{
+    display: none;
+}
+
+
 
 select {
     display: block;
@@ -409,14 +415,22 @@ select {
     border: 2px solid #353945;
     border-radius: 12px;
     padding-left: 16px;
-
-
+    appearance:none;
+    background-position: calc(100% - 12px) center !important;
+    background: url("./arrow__select.svg") no-repeat;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     color: #FCFCFD;
+    transition: 0.5s;
+  }
+select:focus {
+    background: url("./arrow__select-up.svg") no-repeat;
+}
+option{
+    background: #141416;
 }
 
 .block__inputs-two-block {
@@ -426,6 +440,7 @@ select {
     height: 44px;
     border: 2px solid #353945;
     border-radius: 12px;
+    transition: 0.5s;
 }
 
 input[type="number"] {
@@ -586,6 +601,8 @@ input[type="number"]::-webkit-outer-spin-button {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border: 0;
+    transition: 0.5s;
 }
 
 .block__btn-text-final {
@@ -811,8 +828,36 @@ opacity: 0.5;
 }
 
 .modal__img_active{
-    content: url("/icons/1/done.svg");
+    content: url("./done.svg");
 }
 .modal__file-img_active{
     background: #45B36B;
+}
+.block__preview-close{
+    display: none;
+}
+.block__btn-final-prew{
+    display: none;
+}
+.block__btn:hover{
+    background: #3772FF;
+   
+    transition: 0.5s;
+    border: 2px solid #3772FF;
+}
+.block__btn-final:hover{
+    background-color: #044eff;
+    transition: 0.5s;
+}
+.block__inputs-one-block:focus{
+    border-color: #777e90;
+    transition: 0.5s;
+}
+.block__inputs-two-block:focus{
+    border-color: #777e90;
+    transition: 0.5s;
+}
+.select__head:hover{
+    border-color: #777e90;
+    transition: 0.5s;
 }
