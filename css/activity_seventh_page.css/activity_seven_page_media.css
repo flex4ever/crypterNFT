@@ -1,0 +1,119 @@
+@media (max-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        max-width: 864px;
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .activity {
+        width: 528px;
+        height: 56px;
+    }
+
+    .block__posts {
+        width: 528px;
+        height: 1216px;
+    }
+
+    .block__settings {
+        width: 304px;
+        height: 585px;
+    }
+
+    .divider-two {
+        width: 240px;
+        margin-left: 32px;
+    }
+
+    .block__message {
+        width: 528px;
+        height: 132px;
+    }
+
+    .block__message-one {
+        width: 528px;
+        height: 132px;
+    }
+
+    .sheet {
+        margin-left: 32px;
+    }
+
+    .button-three {
+        font-size: 14px;
+        width: 114px;
+        height: 32px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        margin: 0 auto;
+        max-width: 311px;
+    }
+
+    .Uploaditems {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: flex-start;
+    }
+
+    .block__settings {
+        display: none;
+    }
+
+    .block__posts {
+        width: 311px;
+        height: 100%;
+    }
+
+    .block__message {
+        align-self: stretch;
+        width: 311px;
+        height: 140px;
+    }
+
+    .block__message-one {
+        width: 311px;
+        height: 140px;
+    }
+    
+    .activity {
+        flex-wrap: wrap;
+        width: 311px;
+        height: 100%;
+
+        display: flex;
+
+    }
+
+    .button-two {
+        margin-top: 22px;
+        width: 311px;
+        height: 48px;
+    }
+    .block__Choice{
+        margin-top: 94px;
+    }
+    
+
+    .block-activity {
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .photo__adaptive{
+        display: block;
+    }
+    .block__settings-two{
+        display: none;
+    }
+    .adaptive__knopka{
+        display: block;
+    }
+}
