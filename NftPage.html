@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/main_page/NftPage.css" />
+    <link rel="stylesheet" href="./css/main_page/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--font-family: 'Poppins', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="nftModalWrap nftModalWrap_active">
+        <div class="nftModal">
+            <div class="nftModal__title" id="circle-block">
+                <p class="nftModal__title-txt" id="textPage-one"> Checkout </p>
+                <p class="nftModal__title-txt disp-n_active" id="textPage-two"> Follow Steps </p>
+                <button class="nftModal__title-btn">
+                    <img src="./img/main_page-img/closeModal.png" alt="">
+                </button>
+            </div>
+            <div class="nftModal__page-three-block">
+                <p class="nftModal__title-txt" id="textPage-three">Yay! 🎉</p>
+                <p class="nftModal__info-paragraph" id="textPage-three-parag">
+                You are about to purchase <br> C O I N Z from UI8
+                </p>
+                <div class="nftModal__status-block">
+                    <div class="nftModal__status">
+                        <p class="nftModal__status-title">
+                            Status
+                        </p>
+                        <p class="nftModal__status-value">
+                            Processing
+                        </p>
+                    </div>
+                    <div class="nftModal__transactionId-block">
+                        <p class="nftModal__transactionId-title">
+                            Transaction ID
+                        </p>
+                        <p class="nftModal__transactionId-value">
+                            0msx836930...87r398
+                        </p>
+                    </div>
+                </div>
+                <div class="nftModal__share-block">
+                    <p class="nftModal__share-title">Time to show-off</p>
+                    <div class="nftModal__share-sociales">
+                        <button><img src="./img/main_page-img/facebook.svg" alt=""></button>
+                        <button><img src="./img/main_page-img/twitter.svg" alt=""></button>
+                        <button><img src="./img/main_page-img/instagram.svg" alt=""></button>
+                        <button><img src="./img/main_page-img/picsart.svg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- pageTwo -->
+            <div class="nftModal__purchasing-block">
+                <div class="nftModal__purchasing-anim">
+                    <img src="./img/main_page-img/lodingModal.png" alt="" class="nftModal__purchasing-anim-img">
+                </div>
+                <div class="nftModal__purchasing-text-block">
+                    <p class="nftModal__purchasing-title">
+                        Purchasing
+                    </p>
+                    <p class="nftModal__purchasing-description">
+                        Sending transaction with your wallet
+                    </p>
+                </div>
+            </div>
+            <!-- pageOne -->
+            <p class="nftModal__info-paragraph">
+                You are about to purchase C O I N Z from UI8
+            </p> 
+            <div class="nftModal__info-block">
+                <div class="flex-wrapper flex-wrapper_jcsb" id="nftPrice-block">
+                    <p class="nftModal__priceNft-txt">0.007</p>
+                    <p class="nftModal__priceNft-currency">ETH</p>
+                </div>
+                <div class="nftModal__price-info-stroke">
+                    <p class="nftModal__price-info-stroke-txt">
+                        Your balance
+                    </p>
+                    <p class="nftModal__price-info-stroke-value">
+                        8.498 ETH
+                    </p>
+                </div>
+                <div class="nftModal__price-info-stroke">
+                    <p class="nftModal__price-info-stroke-txt">
+                        Service fee
+                    </p>
+                    <p class="nftModal__price-info-stroke-value">
+                        0 ETH
+                    </p>
+                </div>
+                <div class="nftModal__price-info-stroke">
+                    <p class="nftModal__price-info-stroke-txt">
+                        You will pay
+                    </p>
+                    <p class="nftModal__price-info-stroke-value">
+                        0.007 ETH
+                    </p>
+                </div>
+            </div>
+                <!-- pageOne-two -->
+                <div class="nftModal__price-info-verified-b">
+                    <img src="./img/main_page-img/VerifiedInfo.svg" alt="">
+                    <div class="nftModal__price-info-verified-txt-block">
+                        <p class="nftModal__price-info-verified-title">
+                            This creator is not verified   
+                        </p>
+                        <p class="nftModal__price-info-verified-desc">
+                            Purchase this item at your own risk
+                        </p>
+                    </div>
+                </div>
+                <div class="nftModal__btn-block">
+                    <button class="nftModal__btn nftModal__btn_background">I understand, continue</button>
+                    <button class="nftModal__btn">Cancel</button>
+                </div>
+            
+        </div>
+    </div>
+    <main class="main-block">
+        <div class="container">
+            <div class="nftPage">
+                <div class="nftPage__mainImg">
+                    <div class="nftPage__mainImg-up-block">
+                        <div class="nftPage__marker nftPage__marker_white-bg"> <p>art</p>  </div>
+                        <div class="nftPage__marker nftPage__marker_pink-bg"> <p>unlockable</p> </div>
+                    </div>
+                    <div class="nftPage__mainImg-down-block">
+                        <a href="./index.html">
+                            <img src="./img/main_page-img/close.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./img/main_page-img/share.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./img/main_page-img/love.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="./img/main_page-img/dotts.png" alt="">                
+                        </a>
+                    </div>
+                </div>
+                <div class="nftPage__text-block">
+                    <p class="nftPage__title">The amazing art</p>
+                    <div class="nftPage__price-block">
+                        <div class="nftPage__price nftPage__price-border-green">
+                            <p>
+                                2.5 ETH
+                            </p>
+                        </div>
+                        <div class="nftPage__price">
+                            <p>
+                                $4,429.87
+                            </p>
+                        </div>
+                        <p class="nftPage__price-text">
+                    
+                                10 in stock
+
+                        </p>
+                    </div>
+                    <article class="nftPage__desc-text">
+                        This NFT Card will give you Access to Special Airdrops. 
+                        To learn more about UI8 please visit <a href="https://ui8.net">https://ui8.net</a>
+                    </article>
+                    <div class="nftPage__info-tabs-buttons">
+                        <button class="nftPage__info-tabs-button nftPage__info-tabs-button_active" data-btn="1">Info</button>
+                        <button class="nftPage__info-tabs-button" data-btn="2">Owners</button>
+                        <button class="nftPage__info-tabs-button" data-btn="3">History</button>
+                        <button class="nftPage__info-tabs-button" data-btn="4">Bids</button>
+                    </div>
+                    <div class="nftPage__info-tabs-block">
+                        <div class="nftPage__info-tab nftPage__info-tab_active" data-tab="1">
+                            <div class="nftPage__info-tab-owner">
+                                <img src="./img/main_page-img/Owner.png" alt="" class="nftPage__info-tab-img">
+                                <div class="nftPage__info-tab-creator-info">
+                                    <p class="nftPage__info-tab-name-stroke">
+                                        Owner
+                                    </p>
+                                    <p class="nftPage__info-tab-name-creator">
+                                        Raquel Will
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="nftPage__info-tab-creator">
+                                  <img src="./img/main_page-img/creatorPage.png" alt="" class="nftPage__info-tab-img">
+                                <div class="nftPage__info-tab-creator-info">
+                                    <p class="nftPage__info-tab-name-stroke">
+                                        Creator
+                                    </p>
+                                    <p class="nftPage__info-tab-name-creator">
+                                         Selina Mayert
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nftPage__info-tab" data-heww>
+                            <div class="nftPage__info-tab-owner">
+                                <img src="./img/main_page-img/Owner.png" alt="" class="nftPage__info-tab-img">
+                                <div class="nftPage__info-tab-creator-info">
+                                    <p class="nftPage__info-tab-name-stroke">
+                                        Owner
+                                    </p>
+                                    <p class="nftPage__info-tab-name-creator">
+                                        Raquel Will 2
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="nftPage__info-tab-creator">
+                                  <img src="./img/main_page-img/creatorPage.png" alt="" class="nftPage__info-tab-img">
+                                <div class="nftPage__info-tab-creator-info">
+                                    <p class="nftPage__info-tab-name-stroke">
+                                        Creator
+                                    </p>
+                                    <p class="nftPage__info-tab-name-creator">
+                                         Selina Mayert
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nftPage__info-tab" data-tab="3">
+                            <div class="nftPage__info-tab-owner">
+                                <img src="./img/main_page-img/Owner.png" alt="" class="nftPage__info-tab-img">
+                                <div class="nftPage__info-tab-creator-info">
+                                    <p class="nftPage__info-tab-name-stroke">
+                                        Owner
+                                    </p>
+                                    <p class="nftPage__info-tab-name-creator">
+                                        Raquel Will 3
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="nftPage__info-tab-creator">
+                                  <img src="./img/main_page-img/creatorPage.png" alt="" class="nftPage__info-tab-img">
+                                <div class="nftPage__info-tab-creator-info">
+                                    <p class="nftPage__info-tab-name-stroke">
+                                        Creator
+                                    </p>
+                                    <p class="nftPage__info-tab-name-creator">
+                                         Selina Mayert
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nftPage__info-tab" data-tab="4">
+                            <div class="nftPage__info-tab-owner">
+                                <img src="./img/main_page-img/Owner.png" alt="" class="nftPage__info-tab-img">
+                                <div class="nftPage__info-tab-creator-info">
+                                    <p class="nftPage__info-tab-name-stroke">
+                                        Owner
+                                    </p>
+                                    <p class="nftPage__info-tab-name-creator">
+                                        Raquel Will 4
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="nftPage__info-tab-creator">
+                                  <img src="./img/main_page-img/creatorPage.png" alt="" class="nftPage__info-tab-img">
+                                <div class="nftPage__info-tab-creator-info">
+                                    <p class="nftPage__info-tab-name-stroke">
+                                        Creator
+                                    </p>
+                                    <p class="nftPage__info-tab-name-creator">
+                                         Selina Mayert
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nftPage__information-nft-block">
+                        <div class="nftPage__information-nft-creator-and-price-block">
+                            <img src="./img/main_page-img/creatorPage.png" alt="">
+                            <div class="nftPage__information-nft-creator-and-price-text">
+                                <p class="nftPage__information-nft-price-bid-txt">
+                                 Highest bid by <span>Kohaku Tora</span>
+                                </p>
+                                <p class="nftPage__information-nft-price-bid">
+                                  1.46 ETH <span>$2,764.89</span>
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="flex-wrapper flex-wrapper_jcsb">
+                            <button class="nftPage__information-nft-btn nftPage__information-nft-btn_active" id="ModalOpenBtn">Purchase now</button>
+                            <button class="nftPage__information-nft-btn">Place a bid</button>
+                        </div>
+                        <div class="nftPage__description-block">
+                            <p>Service fee</p>
+                            <p class="nftPage__description-text_margin"><span>1.5%</span></p>
+                            <p class="nftPage__description-text_margin">2.563 ETH</p>
+                            <p class="nftPage__description-text_margin">$4,540.62</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    
+    <script src="./js/main_page-js/NftPage.js"></script>
+</body>
+</html>
