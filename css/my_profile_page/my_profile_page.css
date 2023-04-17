@@ -13,7 +13,9 @@
 body {
     background-color: #141416;
 }
-
+.pull{
+    
+}
 .cover {
     background-repeat: no-repeat;
     background-size: cover;
