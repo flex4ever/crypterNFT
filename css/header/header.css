@@ -299,7 +299,6 @@ input[type='search']::-webkit-search-results-decoration {
     transition: all 1s ease;
     opacity: 1;
     display: none;
-
     z-index: 1;
 
 }
@@ -330,6 +329,8 @@ input[type='search']::-webkit-search-results-decoration {
 
     height: 528px;
 
+    height: 528px;
+
     height: 0px;
     display: none;
 
@@ -346,11 +347,10 @@ input[type='search']::-webkit-search-results-decoration {
 
 .notifcations_active {
 
-    opacity: 1;
-
     display: block;
     opacity: 1;
     height: 528px;
+
 
 }
 
