@@ -28,6 +28,7 @@
 }
 
 .footer {
+    margin-top: 136px;
     background: #141416;
     padding-top: 80px;
     border-top: 1px solid #353945;
@@ -171,7 +172,9 @@
 }
 
 .footer__list1_mobile-title {
-    display: none;
+
+    display: none !important;
+
 }
 .footer__list__show-element-active{
     display: block!important;
@@ -244,7 +247,9 @@
     }
 
     .footer__list1_mobile-title {
-        display: flex;
+
+        display: flex !important;
+
     }
 
     .footer-down__buttons {
@@ -282,4 +287,4 @@
         .footer__list2__show-element {
             display: none;
         }
-}
+
