@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.questions {
+    background-color: #141416;
+    width: 100%;
+    height: 100%;
+}
+
+.questions__info {
+    padding-top: 80px;
+}
+
+.questions__info-start {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    text-transform: uppercase;
+    /* Neutrals/4 */
+    color: #777E91;
+}
+
+.questions__info-frequently-ask {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    letter-spacing: -0.02em;
+    /* Neutrals/8 */
+    color: #FCFCFD;
+}
+
+.questions__info-join {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    /* Neutrals/6 */
+    color: #E6E8EC;
+    width: 640px;
+}
+
+.questions__info-join_transition {
+    color: #3772FF;
+}
+
+.qiestions__main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qiestions__main_tabs-item {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.text-tabs {
+    text-decoration: none;
+    color: #777E90;
+}
+
+.img-tabs {
+    margin-right: 16px;
+    width: 16px;
+    height: 16px;
+    color: #777E90;
+}
+
+.img-tabs-active {
+    margin-right: 16px;
+    width: 16px;
+    height: 16px;
+    color: #777E90;
+}
+
+
+.tab-active {
+    color: #FCFCFD;
+}
+
+.qiestions__main_tabs-block_line {
+    border-top: 1px solid #353945;
+}
+
+.qiestions__main_tabs-accordion {
+    display: flex;
+    align-items: center;
+}
+
+.qiestions__main_tabs-accordion-name {
+    padding-top: 30px;
+    padding-bottom: 48px;
+    background-color: #141416;
+    color: #FCFCFD;
+    cursor: pointer;
+    height: 57px;
+    width: 735px;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.qiestions__main_tabs-panel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 735px;
+    /* or 150% */
+    /* Neutrals/4 */
+    color: #777E91;
+    display: none;
+    background-color: #141416;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.qiestions__main_tabs-body {
+    display: none;
+}
+
+.qiestions__main_tabs-block_button {
+    margin-top: 36px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    border: solid 2px #F4F5F6;
+    width: 125px;
+    height: 40px;
+    color: #F4F5F6;
+}
+
+.qiestions__main_tabs-body:target {
+    display: block;
+}
+
+.hot-bid {
+    padding-top: 150px;
+    background-color: #141416;
+    width: 100%;
+    height: 100%;
+}
+
+.hot-bid__header_text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FCFCFD;
+}
+
+.hot-bid__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-bid__header_slider-btn_left-btn {
+    width: 15px;
+    height: 15px;
+
+}
+
+.hot-bid__header_slider-btn_right-btn {
+    width: 15px;
+    height: 15px;
+}
+
+.hot-bid__header_slider-btn {
+    width: 80px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.hot-bid__header_slider-btn_left-btn:hover {
+    border-radius: 100px;
+    padding: 10px;
+    margin: -11px;
+    border: 2px solid #353945;
+}
+
+.hot-bid__header_slider-btn_right-btn:hover {
+    border-radius: 100px;
+    padding: 10px;
+    margin: -11px;
+    border: 2px solid #353945;
+
+}
+
+.slider_cards_card_photo {
+    background-image: url("../../img/questions_page_five_img/1.png");
+    
+    width: 258px;
+    height: 303px;
+    border-radius: 10px;
+}
+
+.hot-bid__slider-line {
+    margin-top: 64px;
+    padding-bottom: 110px;
+    overflow: hidden; 
+    
+}
+
+.hot-bid__slider_cards {
+    display: flex;
+    
+    position: relative;
+    transition: all 0.3s ease;
+    right: 0px;
+    
+    
+}
+
+.slider_cards_card_photo-addition {
+    padding-top: 11px;
+    
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 0px;
+
+}
+
+.slider_cards_card_photo-addition_green {
+    background-color: #45B26B;
+    width: 103px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    text-transform: uppercase;
+    /* Neutrals/8 */
+    color: #FCFCFD;
+}
+
+.slider_cards_card_photo-addition_blue {
+    margin-top: 190px;
+    margin-left: 61px;
+    width: 134px;
+    height: 40px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3772FF;
+
+}
+
+.slider_cards_card_photo-addition_blue_addition_blue {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    /* Neutrals/8 */
+    color: #FCFCFD
+}
+
+.slider_cards_card_photo-addition_blue_addition_img {
+    width: 15px;
+    height: 12px;
+}
+
+.slider_cards_card_photo_addition {
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.slider_cards_card_photo:hover .slider_cards_card_photo_addition {
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+.hot-bid__slider_cards_card_info {
+    margin-top: 20px;
+    
+}
+
+.hot-bid__slider_cards_card_info_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Neutrals/8 */
+    color: #FCFCFD;
+}
+
+.text-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    text-transform: uppercase;
+    border: 2px solid #45B26B;
+    /* Primary/4 */
+    width: 68px;
+    height: 26px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #45B36B;
+}
+
+.hot-bid__slider_cards_card_quantity-purple {
+    /* width: 24px;
+    height: 24px;
+    border: 2px solid #23262F;
+    border-radius: 36px;  */
+}
+
+.hot-bid__slider_cards_card_quantity-purple-img {
+    border-radius: 36px;
+    object-fit: cover;
+    width: 24px;
+    height: 24px;
+    background: #9757D7;
+    border: 2px solid #23262F;
+    border-radius: 36px;
+}
+
+.hot-bid__slider_cards_card_quantity-green-img {
+    border-radius: 36px;
+    object-fit: cover;
+    width: 24px;
+    height: 24px;
+    background: #45B26B;
+    border: 2px solid #23262F;
+    border-radius: 36px;
+    margin-left: -11px;
+}
+
+.hot-bid__slider_cards_card_quantity-pink-img {
+    border-radius: 36px;
+    object-fit: cover;
+    width: 24px;
+    height: 24px;
+    background: #EF466F;
+    border: 2px solid #23262F;
+    border-radius: 36px;
+    margin-left: -11px;
+}
+
+.hot-bid__slider_cards_card_quantity-have {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    /* Neutrals/6 */
+    color: #E6E8EC
+}
+
+.hot-bid__slider_cards_card_quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #353945;
+    border-radius: 1px;
+}
+
+.hot-bid__slider_cards_card_price-info_img {
+    width: 13, 33px;
+    height: 20px;
+}
+
+.hot-bid__slider_cards_card_price-info_name {
+    /* Caption 2 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    /* Neutrals/4 */
+    color: #777E91;
+}
+
+.hot-bid__slider_cards_card_price-info_price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    /* Neutrals/8 */
+    color: #FCFCFD;
+}
+
+.hot-bid__slider_cards_card_price {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-bid__slider_cards_card_price-info {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.hot-bid__slider_cards_card{
+margin-right: 17px;
+margin-left: 9px;
+}
+.hot-bid__slider_cards_card_price-info-new {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    /* Neutrals/4 */
+    color: #777E91;
+}
+
+.hot-bid__slider_cards{
+    display: flex;
+    width: 1920px;
+    position: relative;
+    transition: all 0.3s ease;
+    right: 0px;
+}
+.qiestions__main_tabs_adaptive{
+    display: none;
+}

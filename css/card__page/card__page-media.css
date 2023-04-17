@@ -1,0 +1,120 @@
+@media (max-width:1024px) {
+    .container {
+        max-width: 864px;
+    }
+
+    .wallet__card {
+        width: 382px;
+        height: 128px;
+    }
+
+    .wallet__text {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FCFCFD;
+        margin-left: 32px;
+        width: 203px;
+    }
+
+    .wallet__arrow {
+        margin-left: 4px;
+
+    }
+
+    .wallet__img-QR {
+        width: 416px;
+    }
+
+    .wallet__img-icon {
+        width: 416px;
+    }
+
+    .wallet__img-three-img {
+        width: 416px;
+    }
+
+    .wallet__img {
+        width: 416px;
+    }
+}
+
+@media (max-width:375px) {
+    .container {
+        max-width: 311px;
+    }
+
+    .wallet {
+        display: flex;
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+    .wallet__img-QR {
+        width: 311px;
+    }
+
+    .wallet__img-icon {
+        width: 311px;
+    }
+
+    .wallet__img-three-img {
+        width: 311px;
+    }
+
+    .wallet__img {
+        width: 311px;
+    }
+
+    .wallet__card_active {
+        border: 0;
+        border-radius: 0;
+        width: 311px;
+    }
+
+    .wallet__img-text-two {
+        width: 300px;
+    }
+
+    .wallet__card {
+        width: 311px;
+        height: 128px;
+    }
+
+    .wallet__icon-block {
+        margin-left: 0px;
+    }
+
+    .wallet__img-btn__final {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 311px;
+    }
+
+    .title__text {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .wallet__img-three {
+        width: 311px;
+        height: 116px;
+    }
+
+    .wallet__img-btn-one {
+        width: 311px;
+        height: 48px;
+    }
+
+    .wallet__img-btn-two {
+        margin-top: 8px;
+        width: 311px;
+        height: 48px;
+    }
+}

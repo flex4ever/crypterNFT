@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.flex-wrapper_jcc {
+    justify-content: center;
+}
+
+.flex-wrapper_jcsb {
+    justify-content: space-between;
+}
+
+.flex-wrapper_jcsa {
+    justify-content: space-around;
+}
+
+.flex-wrapper_fdc {
+    flex-direction: column;
+}
+
+.flex-wrapper_width {
+    width: 100%;
+}
+
+.addaptive-flex-wrapper_wrap {
+    flex-wrap: wrap;
+}
+
+.nftPage {
+    padding-bottom: 97px;
+}
+
+.nftModalWrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #23262fd6;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.nftModalWrap_active{
+    display: flex;
+}
+
+.nftModal {
+    padding: 32px;
+    background: #141416;
+    border: 1px solid #23262F;
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    border-radius: 20px;
+    width: 416px;
+    height: fit-content;
+    opacity: 1;
+}
+
+
+.nftPage__mainImg {
+    background: url(../../img/main_page-img/mainNft.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 786px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nftModal__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nftModal__title-txt {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #F4F5F6;
+}
+
+.nftModal__title-btn {
+    border: 0;
+    background: none;
+}
+
+.nftModal__info-paragraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+    margin-top: 32px;
+}
+
+.nftModal__info-block {
+    margin-top: 32px;
+}
+
+#nftPrice-block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #353945;
+}
+
+.nftModal__priceNft-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.nftModal__priceNft-currency {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #FCFCFD;
+}
+
+.nftModal__price-info-stroke {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nftModal__price-info-stroke-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E91;
+}
+
+.nftModal__price-info-stroke-value {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #FCFCFD;
+    margin-top: 12px;
+}
+
+.nftModal__price-info-verified-txt-block {
+    margin-left: 18px;
+}
+
+.nftModal__price-info-verified-b {
+    background: rgba(239, 70, 111, 0.08);
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.nftModal__price-info-verified-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EF466F;
+}
+
+.nftModal__price-info-verified-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #EF466F;
+}
+
+.nftModal__btn-block {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nftModal__btn {
+    background: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+    border: 2px solid #353945;
+    border-radius: 90px;
+    padding: 16px 24px;
+}
+
+.nftModal__btn_background {
+    background: #3772FF;
+    border: 0;
+    margin-bottom: 8px;
+}
+
+.nftModal__purchasing-block {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    display: none;
+}
+
+.nftModal__purchasing-text-block {
+    margin-left: 20px;
+}
+
+.nftModal__purchasing-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.nftModal__purchasing-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777E91;
+
+}
+
+.nftModal__purchasing-anim-img {
+    animation: loadingModal 3s infinite;
+}
+
+.nftModal__title-btn_flexEnd {
+    justify-content: flex-end;
+}
+
+@keyframes loadingModal {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+#textPage-three,
+#textPage-three-parag {
+    text-align: center;
+}
+
+.nftModal__page-three-block {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.nftModal__page-three-block_active {
+    display: block;
+}
+
+.disp-b_active {
+    display: block;
+}
+
+.disp-n_active {
+    display: none;
+}
+
+.disp-f_active {
+    display: flex;
+}
+
+.nftModal__three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nftModal__status-block {
+    border: 1px solid #353945;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.nftModal__status-title,
+.nftModal__transactionId-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777E91;
+}
+
+.nftModal__status-value {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9757D7;
+    margin-top: 10px;
+}
+
+.nftModal__transactionId-value {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+    margin-top: 10px;
+}
+
+.nftModal__share-block {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nftModal__share-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.nftModal__share-sociales {
+    margin-top: 16px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nftModal__share-sociales button {
+    border: 0;
+    background: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nftPage__mainImg-up-block {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nftPage__mainImg-down-block {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 56px;
+}
+
+.nftPage__mainImg-down-block img {
+    margin-top: 16px;
+}
+
+.nftPage__mainImg-down-block img:first-of-type {
+    margin-top: 0;
+}
+
+.nftPage__info-tabs-button {
+    transition: all 0.3s ease;
+}
+
+.nftPage__marker {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #23262F;
+    padding: 8px 8px 6px;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+
+.nftPage__marker_white-bg {
+    background: white;
+}
+
+.nftPage__marker_pink-bg {
+    color: white;
+    background: #9757D7;
+    margin-left: 8px;
+}
+
+.nftPage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nftPage__text-block {
+    width: 33%;
+}
+
+.nftPage__title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+}
+
+.nftPage__price-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 262px;
+    margin-top: 8px;
+}
+
+.nftPage__price {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #777E91;
+    padding: 5px 5px 3px;
+    border: 2px solid #353945;
+    border-radius: 4px;
+}
+
+.nftPage__price-border-green {
+    color: #45B36B;
+    border: 2px solid #45B36B;
+}
+
+.nftPage__price-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #777E91;
+}
+
+.nftPage__desc-text {
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E91;
+}
+
+.nftPage__desc-text a {
+    color: white;
+}
+
+.nftPage__info-tabs-block {
+    margin-top: 44px;
+}
+
+.nftPage__info-tab {
+    display: none;
+}
+
+.nftPage__info-tab_active {
+    display: block;
+}
+
+.nftPage__info-tabs-buttons {
+    margin-top: 40px;
+    display: flex;
+    border: 2px solid #353945;
+    border-radius: 36px;
+    padding: 6px;
+}
+
+.nftPage__info-tabs-button {
+    color: #777E91;
+    padding: 6px 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 100px;
+    border: 0;
+    background: none;
+}
+
+.nftPage__info-tabs-button_active {
+    color: #23262F;
+    background: #E6E8EC;
+}
+
+.nftPage__info-tab-owner,
+.nftPage__info-tab-creator {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #353945;
+}
+
+.nftPage__info-tab-creator {
+    margin-top: 16px;
+}
+
+.nftPage__info-tab-creator-info {
+    margin-left: 16px;
+}
+
+.nftPage__info-tab-name-stroke {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777E91;
+}
+
+.nftPage__info-tab-name-creator {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.nftPage__information-nft-block {
+    margin-top: 68px;
+    background: #23262F;
+    border: 1px solid #353945;
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.nftPage__information-nft-creator-and-price-block {
+    display: flex;
+    align-items: center;
+}
+
+.nftPage__information-nft-creator-and-price-text {
+    margin-left: 16px;
+}
+
+.nftPage__information-nft-price-bid-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E91;
+}
+
+.nftPage__information-nft-price-bid-txt span,
+.nftPage__description-block span {
+    color: white;
+}
+
+.nftPage__information-nft-price-bid {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+
+.nftPage__information-nft-price-bid span {
+    color: #777E91;
+}
+
+.nftPage__information-nft-btn {
+    background: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+    border: 2px solid #353945;
+    border-radius: 90px;
+    padding: 16px 24px;
+    margin-top: 32px;
+
+}
+
+.nftPage__information-nft-btn_active {
+    border: 0;
+    background: #3772FF;
+}
+
+.nftPage__description-block {
+    margin-top: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777E91;
+    display: flex;
+    align-items: center;
+}
+
+.nftPage__description-text_margin {
+    margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 864px;
+    }
+
+    .nftPage__mainImg {
+
+        width: 496px;
+        height: 768px;
+    }
+
+    .nftPage__text-block {
+        width: 40%;
+    }
+
+    .nftPage__mainImg-down-block {
+        display: flex;
+        position: static;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 30%;
+        width: 192px;
+        margin-bottom: 24px;
+        background: #23262F;
+        box-shadow: 0px 40px 32px -24px rgba(15, 15, 15, 0.12);
+        border-radius: 64px;
+        padding: 8px;
+    }
+
+    .nftPage__mainImg-down-block img:first-of-type {
+        display: none;
+    }
+
+    .nftPage__mainImg-down-block img {
+        margin-top: 0;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 311px;
+    }
+
+    .nftPage__mainImg {
+        width: 100%;
+        height: 420px;
+    }
+
+    .nftPage {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nftPage__mainImg-down-block {
+        margin-left: 16%;
+    }
+
+    .nftPage__text-block {
+        width: 100%;
+    }
+
+    .nftPage__information-nft-btn {
+        padding: 16px 10px;
+    }
+
+    .nftPage__information-nft-price-bid {
+        font-size: 20px;
+    }
+
+    .nftPage__information-nft-price-bid-txt {
+        font-size: 13px;
+    }
+
+    .nftPage__description-block {
+        font-size: 12px;
+    }
+
+    .nftPage__information-nft-block {
+        margin-bottom: 16px;
+    }
+
+}

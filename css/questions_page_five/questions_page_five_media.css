@@ -1,0 +1,121 @@
+@media (width: 1024px) {
+    .container {
+        margin: 0 auto;
+        max-width: 864px;
+    }
+
+    .questions__info {
+        padding-top: 136px;
+    }
+
+    .qiestions__main_tabs-panel {
+        width: 640px;
+
+    }
+
+    .qiestions__main_tabs-block_line {
+        width: 640px;
+    }
+
+    .slider_cards_card_photo {
+        width: 266.67px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hot-bid__slider_cards_card {
+        margin-right: 22px;
+        margin-left: 0px;
+    }
+}
+
+@media (width: 375px) {
+    .qiestions__main {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 311px;
+    }
+
+    .questions__info-join {
+        width: 311px;
+    }
+
+    .questions__info {
+        padding-top: 136px;
+    }
+
+    .qiestions__main_tabs-panel {
+        width: 311px;
+
+    }
+
+    .qiestions__main_tabs-block_line {
+        width: 311px;
+    }
+
+    .slider_cards_card_photo {
+        width: 266.67px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hot-bid__slider_cards_card {
+        margin-right: 22px;
+        margin-left: 0px;
+    }
+
+    .qiestions__main_tabs-accordion-name {
+        width: 311px;
+    }
+
+    .qiestions__main_tabs_adaptive {
+        display: block;
+        padding-bottom: 40px;
+        height: 100%;
+
+
+    }
+
+    .qiestions__main_tabs {
+        display: none;
+    }
+
+    select {
+        width: 311px;
+        height: 48px;
+        left: 0px;
+        top: 324px;
+        border-radius: 12px;
+        padding: 12px;
+        justify-content: space-between;
+        border: 1px solid #353945;
+        background-color: #353945;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+        display: flex;
+        align-items: center;
+        /* Neutrals/8 */
+        color: #FCFCFD;
+
+
+        
+
+    }
+    option {
+        width: 300px;
+    }
+
+    .qiestions__main_tabs-item_adaptive {
+        width: 360px;
+    }
+
+}

@@ -1,0 +1,324 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypter</title>
+    <link rel="stylesheet" href="./css/error/error.css">
+    <link rel="stylesheet" href="./css/error/errormedia.css">
+    <link rel="stylesheet" href="./css/header/header.css" />
+    <link rel="stylesheet" href="./css/footer/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <!--font-family: 'Poppins', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <!--font-family: 'DM Sans', sans-serif;-->
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container flex-wrapper flex-wrapper_jcsb" style="height: 100%">
+            <div class="logo-block">
+                <a href="">
+                    <div class="logo-block__logo-and-text">
+                        <img src="./icons/1/logo.svg" alt="" class="logo-block__logo" />
+                        <p class="logo-block__logo-text">crypter</p>
+                    </div>
+                </a>
+                <div class="line"></div>
+                <a href="">
+                    <p class="logo-block__desc-text">Discover</p>
+                </a>
+                <a href="">
+                    <p class="logo-block__desc-text">How it work</p>
+                </a>
+            </div>
+            <div class="other-block">
+                <div class="other-block__search">
+                    <input type="search" placeholder="Search" class="other-block__search-input" />
+                    <button class="other-block__search-button" type="submit">
+                        <img src="./icons/1/search__input.svg" alt="" />
+                    </button>
+                </div>
+
+                <button class="other-block__notification">
+                    <img src="./img/header_img/Notification.png" alt="" />
+                </button>
+
+                <a href="">
+                    <button class="other-block__upload-button">Upload</button>
+                </a>
+                <a href="">
+                    <button class="other__block__account-button">
+                        <img src="./img/header_img/avatar.png" alt="" class="other__block__account-img" />
+                        <p class="other__block__account-money">
+                            7.00698
+                            <span class="other__block__account-money-valute">ETH</span>
+                        </p>
+                    </button>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <div class="nav-menu__line nav-menu__line-one" id="nav-menu__lineUp"></div>
+                <div class="nav-menu__line nav-menu__line-two" id="nav-menu__lineDown"></div>
+            </div>
+        </nav>
+        <div class="modal-nav">
+            <div class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width">
+                <a href="">
+                    <button class="other-block__notification">
+                        <img src="./img/header_img/Notification.png" alt="" />
+                    </button>
+                </a>
+                <a href="">
+                    <button class="other__block__account-button">
+                        <img src="./img/header_img/avatar.png" alt="" class="other__block__account-img" />
+                        <p class="other__block__account-money">
+                            7.00698
+                            <span class="other__block__account-money-valute">ETH</span>
+                        </p>
+                    </button>
+                </a>
+            </div>
+            <div class="other-block__search other-block__search_mobile-mt">
+                <input type="search" placeholder="Search" class="other-block__search-input" />
+                <button class="other-block__search-button">
+                    <img src="./icons/1/search__input.svg" alt="" />
+                </button>
+            </div>
+            <a href="">
+                <button class="other-block__upload-button other-block__upload-button_mobile-mt">
+                    Upload
+                </button>
+            </a>
+        </div>
+    </header>
+    <div class="notifications-wrapper">
+        <div class="notifications">
+            <div class="flex-wrapper flex-wrapper_jcsa" style="margin-bottom: 15px">
+                <p class="notifications__title">Notification</p>
+                <a href="">
+                    <button class="notifications__seeAll">See all</button>
+                </a>
+            </div>
+            <div class="notifications__nofication">
+                <div class="flex-wrapper">
+                    <img src="./img/header_img/notification1.png" alt="" class="notification__img" />
+                    <div class="notifcation__text">
+                        <p class="notification__title-text">
+                            ETH received <br />
+                            0.08 ETH recived
+                        </p>
+                        <p class="notification__desc-text">2 days ago</p>
+                    </div>
+                </div>
+                <div class="notification__circle"></div>
+            </div>
+            <div class="notifications__nofication">
+                <div class="flex-wrapper">
+                    <img src="./img/header_img/notification2.png" alt="" class="notification__img" />
+                    <div class="notifcation__text">
+                        <p class="notification__title-text">
+                            C O I N Z <br />
+                            New bid 0.2 ETH
+                        </p>
+                        <p class="notification__desc-text">3 days ago</p>
+                    </div>
+                </div>
+                <div class="notification__circle"></div>
+            </div>
+            <div class="notifications__nofication">
+                <div class="flex-wrapper">
+                    <img src="./img/header_img/notification3.png" alt="" class="notification__img" />
+                    <div class="notifcation__text">
+                        <p class="notification__title-text">
+                            ETH received <br />
+                            0.08 ETH recived
+                        </p>
+                        <p class="notification__desc-text">4 days ago</p>
+                    </div>
+                </div>
+                <div class="notification__circle"></div>
+            </div>
+            <div class="notifications__nofication">
+                <div class="flex-wrapper">
+                    <img src="./img/header_img/notification4.png" alt="" class="notification__img" />
+                    <div class="notifcation__text">
+                        <p class="notification__title-text">
+                            ETH received <br />
+                            0.08 ETH recived
+                        </p>
+                        <p class="notification__desc-text">5 days ago</p>
+                    </div>
+                </div>
+                <div class="notification__circle"></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="specular">
+                <img src="./img/error/specular.png" alt="" class="spec
+                ">
+            </div>
+            <div class="error-img-two">
+                <img src="./img/error/Group 25.png" alt="" class="img-two
+                ">
+            </div>
+            <div class="error-img-one">
+                <img src="./img/error/aaa.png" alt="" class="img-one">
+            </div>
+            <div class="error-img">
+                <img src="./img/error/Frame 1049.png" alt="" class="image">
+            </div>
+            <div class="error-flex__text">
+                <p class="error__text">Sorry, we couldn’t find any results for this search.</p>
+                <p class="error__text-two">Maybe give one of these a try?</p>
+                <div class="footer-up__input-block">
+                    <input type="text" placeholder="Enter your search..." class="footer-up__input" />
+                    <a href=""><button class="footer-up__input-button" type="submit">
+                            <img src="./img/footer__img/arroew-right-footer-input.svg" alt="" /></button></a>
+                </div>
+            </div>
+            <div class="explore">
+                <p class="explore__text">
+                    Explore more
+                </p>
+            </div>
+            <div class="explore__flex">
+                <div class="explore__items">
+                    <img src="./img/error/07.png" alt="" class="arbuz">
+                    <div class="explore__text-flex">
+                        <p class="explore__text-artwork">Artwork</p>
+                        <p class="explore__text-items">138 items</p>
+                    </div>
+                </div>
+                <div class="explore__items-one">
+                    <img src="./img/error/popug.png" alt="" class="popug">
+                    <div class="explore__text-flex">
+                        <p class="explore__text-photo">Photoghraphy</p>
+                        <p class="explore__text-items">138 items</p>
+                    </div>
+                </div>
+                <div class="explore__items-two">
+                    <img src="./img/error/06.png" alt="" class="arbuz">
+                    <div class="explore__text-flex">
+                        <p class="explore__text-game">Game</p>
+                        <p class="explore__text-items">138 items</p>
+                    </div>
+                </div>
+                <div class="explore__items-three">
+                    <img src="./img/error/indus.png" alt="" class="indus">
+                    <div class="explore__text-flex">
+                        <p class="explore__text-music">Music</p>
+                        <p class="explore__text-items">138 items</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-up">
+                <div class="footer-up__logo-block">
+                    <div class="flex-wrapper">
+                        <img src="./icons/1/logo.svg" alt="" class="footer-up__logo" />
+                        <p class="footer-up__text-title">crypter</p>
+                    </div>
+                    <p class="footer-up__logo-block-text">
+                        The New Creative <br />
+                        Economy.
+                    </p>
+                </div>
+                <ul class="footer__list1">
+                    <li class="flex-wrapper flex-wrapper_jcsb flex-wrapper_width footer__list1_mobile-title"
+                        id="accordion-btn-footer-list1">
+                        <p class="footer__list-title">crypter.</p>
+                        <img src="./img/footer__img/arroe-down-accordion_footer.svg" alt="" />
+                    </li>
+                    <li class="footer__list-title footer__list-title_mobile">Stacks</li>
+                    <a href="">
+                        <li class="footer__list-desc footer__list1__show-element">
+                            Discover
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="footer__list-desc footer__list-desc_mt footer__list1__show-element">
+                            Connect wallet
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="footer__list-desc footer__list-desc_mt footer__list-title_mobile">
+                            Create item
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li
+                            class="footer__list-desc footer__list-desc_mt footer__list1__show-element footer__list-desc_mobile">
+                            FAQ
+                        </li>
+                    </a>
+                </ul>
+                <ul class="footer__list2">
+                    <li class="flex-wrapper flex-wrapper_jcsb flex-wrapper_width footer__list1_mobile-title"
+                        id="accordion-btn-footer-list2">
+                        <p class="footer__list-title">Info</p>
+                        <img src="./img/footer__img/arroe-down-accordion_footer.svg" alt="" />
+                    </li>
+                    <li class="footer__list-title footer__list-title_mobile">Info</li>
+                    <a href="">
+                        <li class="footer__list-desc footer__list2__show-element">
+                            Download
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="footer__list-desc footer__list-desc_mt footer__list2__show-element">
+                            Demos
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="footer__list-desc footer__list-desc_mt footer__list2__show-element">
+                            Support
+                        </li>
+                    </a>
+                </ul>
+                <ul class="footer__list3">
+                    <li class="footer__list-title footer__list-title_mobile-desc">
+                        Join Newsletter
+                    </li>
+                    <li class="footer-up__text-desc-newsletter">
+                        Subscribe our newsletter to get more free design <br />
+                        course and resource
+                    </li>
+                    <div class="footer-up__input-block">
+                        <input type="text" placeholder="Enter your email" class="footer-up__input" />
+                        <a href=""><button class="footer-up__input-button" type="submit">
+                                <img src="./img/footer__img/arroew-right-footer-input.svg" alt="" /></button></a>
+                    </div>
+                </ul>
+            </div>
+            <div class="footer-down">
+                <p class="footer-down-desc-text">
+                    Copyright © 2021 UI8 LLC. All rights reserved
+                </p>
+                <div class="flex-wrapper flex-wrapper_jcsb footer-down__buttons">
+                    <div class="footer-down__cookies-desc-text">
+                        We use cookies for better service.
+                    </div>
+                    <a href="">
+                        <p class="footer-down__accept-text">Accept</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/footer.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>
