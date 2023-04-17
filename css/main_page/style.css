@@ -90,6 +90,10 @@
     margin-top: 130px;
 }
 
+.mainNft.slick-slide{
+    z-index: 0 !important;
+}
+
 .mainNft__photo {
     border-radius: 16px;
 }
@@ -214,12 +218,7 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
-    /* identical to box height, or 133% */
-
     text-align: center;
-
-    /* Neutrals/4 */
-
     color: #777E91;
 }
 
@@ -296,7 +295,7 @@
 .descNft__arrows-group {
     margin-top: 40px;
     position: absolute;
-    top: 1119px;
+    top: 1187px;
     left: 1161px;
     z-index: 1000;
     /* bottom: -566px; */
@@ -1629,7 +1628,7 @@
     .descNft__arrows-group {
         margin-top: 40px;
         position: absolute;
-        top: 1077px;
+        top: 1174px;
         left: 584px;
         z-index: 1000;
     }
