@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/header/header.css" />
+    <link rel="stylesheet" href="./css/footer/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--font-family: 'Poppins', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--font-family: 'DM Sans', sans-serif;-->
+    <link rel="stylesheet" href="./css/my_profile_page/my_profile_page.css">
+    <link rel="stylesheet" href="./css/my_profile_page/my_profile_page_media.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container flex-wrapper flex-wrapper_jcsb" style="height: 100%">
+            <div class="logo-block">
+                <a href="">
+                    <div class="logo-block__logo-and-text">
+                        <img src="./icons/1/logo.svg" alt="" class="logo-block__logo" />
+                        <p class="logo-block__logo-text">crypter</p>
+                    </div>
+                </a>
+                <div class="line"></div>
+                <a href="">
+                    <p class="logo-block__desc-text">Discover</p>
+                </a>
+                <a href="">
+                    <p class="logo-block__desc-text">How it work</p>
+                </a>
+            </div>
+            <div class="other-block">
+                <div class="other-block__search">
+                    <input type="search" placeholder="Search" class="other-block__search-input" />
+                    <button class="other-block__search-button" type="submit">
+                        <img src="./icons/1/search__input.svg" alt="" />
+                    </button>
+                </div>
+
+                <button class="other-block__notification">
+                    <img src="./img/header_img/Notification.png" alt="" />
+                </button>
+
+                <a href="">
+                    <button class="other-block__upload-button">Upload</button>
+                </a>
+                <a href="">
+                    <button class="other__block__account-button">
+                        <img src="./img/header_img/avatar.png" alt="" class="other__block__account-img" />
+                        <p class="other__block__account-money">
+                            7.00698
+                            <span class="other__block__account-money-valute">ETH</span>
+                        </p>
+                    </button>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <div class="nav-menu__line nav-menu__line-one" id="nav-menu__lineUp"></div>
+                <div class="nav-menu__line nav-menu__line-two" id="nav-menu__lineDown"></div>
+            </div>
+        </nav>
+        <div class="modal-nav">
+            <div class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width">
+                <a href="">
+                    <button class="other-block__notification">
+                        <img src="./img/header_img/Notification.png" alt="" />
+                    </button>
+                </a>
+                <a href="">
+                    <button class="other__block__account-button">
+                        <img src="./img/header_img/avatar.png" alt="" class="other__block__account-img" />
+                        <p class="other__block__account-money">
+                            7.00698
+                            <span class="other__block__account-money-valute">ETH</span>
+                        </p>
+                    </button>
+                </a>
+            </div>
+            <div class="other-block__search other-block__search_mobile-mt">
+                <input type="search" placeholder="Search" class="other-block__search-input" />
+                <button class="other-block__search-button">
+                    <img src="./icons/1/search__input.svg" alt="" />
+                </button>
+            </div>
+            <a href="">
+                <button class="other-block__upload-button other-block__upload-button_mobile-mt">
+                    Upload
+                </button>
+            </a>
+        </div>
+    </header>
+    <div class="notifications-wrapper">
+        <div class="notifications">
+            <div class="flex-wrapper flex-wrapper_jcsa" style="margin-bottom: 15px">
+                <p class="notifications__title">Notification</p>
+                <a href="">
+                    <button class="notifications__seeAll">See all</button>
+                </a>
+            </div>
+            <div class="notifications__nofication">
+                <div class="flex-wrapper">
+                    <img src="./img/header_img/notification1.png" alt="" class="notification__img" />
+                    <div class="notifcation__text">
+                        <p class="notification__title-text">
+                            ETH received <br />
+                            0.08 ETH recived
+                        </p>
+                        <p class="notification__desc-text">2 days ago</p>
+                    </div>
+                </div>
+                <div class="notification__circle"></div>
+            </div>
+            <div class="notifications__nofication">
+                <div class="flex-wrapper">
+                    <img src="./img/header_img/notification2.png" alt="" class="notification__img" />
+                    <div class="notifcation__text">
+                        <p class="notification__title-text">
+                            C O I N Z <br />
+                            New bid 0.2 ETH
+                        </p>
+                        <p class="notification__desc-text">3 days ago</p>
+                    </div>
+                </div>
+                <div class="notification__circle"></div>
+            </div>
+            <div class="notifications__nofication">
+                <div class="flex-wrapper">
+                    <img src="./img/header_img/notification3.png" alt="" class="notification__img" />
+                    <div class="notifcation__text">
+                        <p class="notification__title-text">
+                            ETH received <br />
+                            0.08 ETH recived
+                        </p>
+                        <p class="notification__desc-text">4 days ago</p>
+                    </div>
+                </div>
+                <div class="notification__circle"></div>
+            </div>
+            <div class="notifications__nofication">
+                <div class="flex-wrapper">
+                    <img src="./img/header_img/notification4.png" alt="" class="notification__img" />
+                    <div class="notifcation__text">
+                        <p class="notification__title-text">
+                            ETH received <br />
+                            0.08 ETH recived
+                        </p>
+                        <p class="notification__desc-text">5 days ago</p>
+                    </div>
+                </div>
+                <div class="notification__circle"></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="cover">
+            <div class="cover__right-block">
+                <div class="cover__edit">
+                    <div class="cover__edit-one">
+                        <p class="cover__edit-text">Edit cover photo</p>
+                        <img src="./icons/1/img__icon.svg" alt="">
+                    </div>
+                    <div class="cover__edit-two">
+                        <p class="cover__edit-text">Edit profile</p>
+                        <img src="./icons/1/edit.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cover-main">
+                <div class="cover__phone">
+                    <div class="cover__phone-block">
+                        <img src="./img/my_profile_page_img/белый.png" alt="" class="white">
+                        <p class="cover__phone-text">Enrico Cole</p>
+                        <div class="cover__phone-text-img">
+                            <p class="cover__phone-text-two">0xc4c16a645...b21a</p>
+                            <img src="./icons/1/coins.svg" alt="" class="coins">
+                        </div>
+                        <p class="cover__phone-text-three">A wholesome farm owner in <br>Montana. Upcoming
+                            gallery<br> solo show
+                            in Germany</p>
+                        <div class="cover__phone-img-text">
+                            <img src="./icons/1/globe.svg" alt="" class="globe">
+                            <p class="cover__phone-img-http">https://ui8.net</p>
+                        </div>
+                        <div class="cover__phone-button">
+                            <div class="cover__phone-button-follow">
+                                <p class="cover__phone-button-follow-text">Follow</p>
+                            </div>
+                            <img src="./icons/1/share_icon.svg" alt="" class="share">
+                            <img src="./icons/1/more.svg" alt="">
+                        </div>
+                        <div class="cover__phone-logo">
+                            <img src="./icons/1/twitter.svg" alt="" class="twit">
+                            <img src="./icons/1/insta.svg" alt="" class="insta">
+                            <img src="./icons/1/facebook.svg" alt="" class="face">
+                        </div>
+                        <div class="cover__phone-line"></div>
+                        <p class="cover__phone-underline">Member since Mar 15, 2021</p>
+                    </div>
+                </div>
+
+
+
+                <div class="cover__nav-column">
+                    <div class="cover__nav">
+                        <div class="cover__nav-flex">
+                            <p class="cover__nav-sale">On sale</p>
+                        </div>
+                        <div class="cover__nav-flex">
+                            <p class="cover__nav-collectibles">Collectibles</p>
+                        </div>
+                        <div class="cover__nav-flex">
+                            <p class="cover__nav-created">Created</p>
+                        </div>
+                        <div class="cover__nav-flex">
+                            <p class="cover__nav-likes">Likes</p>
+                        </div>
+                        <div class="cover__nav-flex">
+                            <div class="tabs">
+                                <a href="#tab_01" class="tabs_item">Following</a>
+                            </div>
+                        </div>
+                        <div class="cover__nav-flex">
+                            <div class="tabs">
+                                <a href="#tab_01" class="tabs_item">Followers</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cover__nav-photo-flex">
+                        <div class="cover__nav-photo">
+                            <img src="./img/my_profile_page_img/04.png" alt="" class="photo-cover">
+                            <div class="cover__nav-value">
+                                <p class="cover__nav-value-text">Amazing digital art</p>
+                                <div class="cover__nav-box">
+                                    <p class="cover__nav-box-text">2.45 ETH</p>
+                                </div>
+                            </div>
+                            <div class="cover__nav-threepokerface">
+                                <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                    class="purple">
+                                <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                    class="pink">
+                                <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                    class="green">
+                                <p class="cover__nav-stock">3 in stock</p>
+                            </div>
+                            <div class="cover__nav-line">
+                                <div class="line"></div>
+                            </div>
+                            <div class="cover__nav-last">
+                                <img src="./icons/1/candlesticks_up.svg" alt="" class="candle">
+                                <p class="cover__nav-text">Highest bid</p>
+                                <p class="cover__nav-text-two">0.001 ETH</p>
+                                <p class="cover__nav-text-three">New bid 🔥</p>
+
+                            </div>
+                        </div>
+                        <div class="cover__nav-photo">
+                            <div class="cover__nav-adaptive">
+                                <img src="./img/my_profile_page_img/01.png" alt="" class="photo-cover">
+                                <div class="cover__nav-value">
+                                    <p class="cover__nav-value-text">Amazing digital art</p>
+                                    <div class="cover__nav-box">
+                                        <p class="cover__nav-box-text">2.45 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="cover__nav-threepokerface">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="purple">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="pink">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="green">
+                                    <p class="cover__nav-stock">3 in stock</p>
+                                </div>
+                                <div class="cover__nav-line">
+                                    <div class="line-two"></div>
+                                </div>
+                                <div class="cover__nav-last">
+                                    <img src="./icons/1/candlesticks_up.svg" alt="" class="candle">
+                                    <p class="cover__nav-text">Highest bid</p>
+                                    <p class="cover__nav-text-two">0.001 ETH</p>
+                                    <p class="cover__nav-text-three">New bid 🔥</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover__nav-photo">
+                            <div class="cover__nav-adaptive">
+                                <img src="./img/my_profile_page_img/03.png" alt="" class="photo-cover">
+                                <div class="cover__nav-value">
+                                    <p class="cover__nav-value-text">Amazing digital art</p>
+                                    <div class="cover__nav-box">
+                                        <p class="cover__nav-box-text">2.45 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="cover__nav-threepokerface">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="purple">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="pink">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="green">
+                                    <p class="cover__nav-stock">3 in stock</p>
+                                </div>
+                                <div class="cover__nav-line">
+                                    <div class="line"></div>
+                                </div>
+                                <div class="cover__nav-last">
+                                    <img src="./icons/1/candlesticks_up.svg" alt="" class="candle">
+                                    <p class="cover__nav-text">Highest bid</p>
+                                    <p class="cover__nav-text-two">0.001 ETH</p>
+                                    <p class="cover__nav-text-three">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover__nav-photo">
+                            <div class="cover__nav-kyb">
+                                <img src="./img/my_profile_page_img/06.png" alt="" class="photo-cover">
+                                <div class="cover__nav-value">
+                                    <p class="cover__nav-value-text">Colorful Keyboard</p>
+                                    <div class="cover__nav-box">
+                                        <p class="cover__nav-box-text">2.45 ETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cover__nav-threepokerface">
+                                <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                    class="purple">
+                                <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                    class="pink">
+                                <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                    class="green">
+                                <p class="cover__nav-stock">3 in stock</p>
+                            </div>
+                            <div class="cover__nav-line">
+                                <div class="line"></div>
+                            </div>
+                            <div class="cover__nav-last">
+                                <img src="./icons/1/candlesticks_up.svg" alt="" class="candle">
+                                <p class="cover__nav-text">Highest bid</p>
+                                <p class="cover__nav-text-two">0.001 ETH</p>
+                                <p class="cover__nav-text-three">New bid 🔥</p>
+
+                            </div>
+                        </div>
+                        <div class="cover__nav-photo">
+                            <div class="cover__nav-romb">
+                                <img src="./img/my_profile_page_img/product img.png" alt="" class="photo-cover">
+                                <div class="cover__nav-value">
+                                    <p class="cover__nav-value-text">Black Golden Tiger</p>
+                                    <div class="cover__nav-box">
+                                        <p class="cover__nav-box-text">2.45 ETH</p>
+                                    </div>
+                                </div>
+                                <div class="cover__nav-threepokerface">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="purple">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="pink">
+                                    <img src="./img/my_profile_page_img/austin-wade-X6Uj51n5CE8-unsplash 1.png" alt=""
+                                        class="green">
+                                    <p class="cover__nav-stock">3 in stock</p>
+                                </div>
+                                <div class="cover__nav-line">
+                                    <div class="line"></div>
+                                </div>
+                                <div class="cover__nav-last">
+                                    <img src="./icons/1/candlesticks_up.svg" alt="" class="candle">
+                                    <p class="cover__nav-text">Highest bid</p>
+                                    <p class="cover__nav-text-two">0.001 ETH</p>
+                                    <p class="cover__nav-text-three">New bid 🔥</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-up">
+                <div class="footer-up__logo-block">
+                    <div class="flex-wrapper">
+                        <img src="./icons/1/logo.svg" alt="" class="footer-up__logo" />
+                        <p class="footer-up__text-title">crypter</p>
+                    </div>
+                    <p class="footer-up__logo-block-text">
+                        The New Creative <br />
+                        Economy.
+                    </p>
+                </div>
+                <ul class="footer__list1">
+                    <li class="flex-wrapper flex-wrapper_jcsb flex-wrapper_width footer__list1_mobile-title"
+                        id="accordion-btn-footer-list1">
+                        <p class="footer__list-title">crypter.</p>
+                        <img src="./img/footer__img/arroe-down-accordion_footer.svg" alt="" />
+                    </li>
+                    <li class="footer__list-title footer__list-title_mobile">Stacks</li>
+                    <a href="">
+                        <li class="footer__list-desc footer__list1__show-element">
+                            Discover
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="footer__list-desc footer__list-desc_mt footer__list1__show-element">
+                            Connect wallet
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="footer__list-desc footer__list-desc_mt footer__list-title_mobile">
+                            Create item
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li
+                            class="footer__list-desc footer__list-desc_mt footer__list1__show-element footer__list-desc_mobile">
+                            FAQ
+                        </li>
+                    </a>
+                </ul>
+                <ul class="footer__list2">
+                    <li class="flex-wrapper flex-wrapper_jcsb flex-wrapper_width footer__list1_mobile-title"
+                        id="accordion-btn-footer-list2">
+                        <p class="footer__list-title">Info</p>
+                        <img src="./img/footer__img/arroe-down-accordion_footer.svg" alt="" />
+                    </li>
+                    <li class="footer__list-title footer__list-title_mobile">Info</li>
+                    <a href="">
+                        <li class="footer__list-desc footer__list2__show-element">
+                            Download
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="footer__list-desc footer__list-desc_mt footer__list2__show-element">
+                            Demos
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="footer__list-desc footer__list-desc_mt footer__list2__show-element">
+                            Support
+                        </li>
+                    </a>
+                </ul>
+                <ul class="footer__list3">
+                    <li class="footer__list-title footer__list-title_mobile-desc">
+                        Join Newsletter
+                    </li>
+                    <li class="footer-up__text-desc-newsletter">
+                        Subscribe our newsletter to get more free design <br />
+                        course and resource
+                    </li>
+                    <div class="footer-up__input-block">
+                        <input type="text" placeholder="Enter your email" class="footer-up__input" />
+                        <a href=""><button class="footer-up__input-button" type="submit">
+                                <img src="./img/footer__img/arroew-right-footer-input.svg" alt="" /></button></a>
+                    </div>
+                </ul>
+            </div>
+            <div class="footer-down">
+                <p class="footer-down-desc-text">
+                    Copyright © 2021 UI8 LLC. All rights reserved
+                </p>
+                <div class="flex-wrapper flex-wrapper_jcsb footer-down__buttons">
+                    <div class="footer-down__cookies-desc-text">
+                        We use cookies for better service.
+                    </div>
+                    <a href="">
+                        <p class="footer-down__accept-text">Accept</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/footer.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>
