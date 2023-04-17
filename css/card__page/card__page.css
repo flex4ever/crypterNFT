@@ -187,7 +187,7 @@ body {
 
 .wallet__img-three {
     width: 448px;
-    height: 116px;
+   
 }
 
 .wallet__img-three-img {
@@ -297,6 +297,10 @@ text-align: center;
 color: #FCFCFD;
 }
 .wallet__img-btn__final{
+   
     margin-top: 40px;
     display: flex;
+}
+footer{
+    margin-top: 136px;
 }
