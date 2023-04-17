@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--font-family: 'Poppins', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--font-family: 'DM Sans', sans-serif;-->
+    <link rel="stylesheet" href="./css/profile_page_eight/profile_page_eight.css">
+    <link rel="stylesheet" href="./css/profile_page_eight/profile_page_eight_media.css">
+    <link rel="stylesheet" href="./css/header/header.css" />
+    <link rel="stylesheet" href="./css/footer/footer.css" />
+
+</head>
+
+<body>
+
+
+
+    <header class="header">
+        <nav
+          class="container flex-wrapper flex-wrapper_jcsb"
+          style="height: 100%"
+        >
+          <div class="logo-block">
+            <a href="">
+              <div class="logo-block__logo-and-text">
+                <img src="./icons/1/logo.svg" alt="" class="logo-block__logo" />
+                <p class="logo-block__logo-text">crypter</p>
+              </div>
+            </a>
+            <div class="line"></div>
+            <a href="">
+              <p class="logo-block__desc-text">Discover</p>
+            </a>
+            <a href="">
+              <p class="logo-block__desc-text">How it work</p>
+            </a>
+          </div>
+          <div class="other-block">
+            <div class="other-block__search">
+              <input
+                type="search"
+                placeholder="Search"
+                class="other-block__search-input"
+              />
+              <button class="other-block__search-button" type="submit">
+                <img src="./icons/1/search__input.svg" alt="" />
+              </button>
+            </div>
+            
+              <button class="other-block__notification">
+                <img src="./img/header_img/Notification.png" alt="" />
+              </button>
+          
+            <a href="">
+              <button class="other-block__upload-button">Upload</button>
+            </a>
+            <a href="">
+              <button class="other__block__account-button">
+                <img
+                  src="./img/header_img/avatar.png"
+                  alt=""
+                  class="other__block__account-img"
+                />
+                <p class="other__block__account-money">
+                  7.00698
+                  <span class="other__block__account-money-valute">ETH</span>
+                </p>
+              </button>
+            </a>
+          </div>
+          <div class="nav-menu">
+            <div class="nav-menu__line nav-menu__line-one" id="nav-menu__lineUp"></div>
+            <div
+              class="nav-menu__line nav-menu__line-two"
+              id="nav-menu__lineDown"
+            ></div>
+          </div>
+        </nav>
+        <div class="modal-nav">
+          <div class="flex-wrapper flex-wrapper_jcsa flex-wrapper_width">
+            <a href="">
+              <button class="other-block__notification">
+                <img src="./img/header_img/Notification.png" alt="" />
+              </button>
+            </a>
+            <a href="">
+              <button class="other__block__account-button">
+                <img
+                  src="./img/header_img/avatar.png"
+                  alt=""
+                  class="other__block__account-img"
+                />
+                <p class="other__block__account-money">
+                  7.00698
+                  <span class="other__block__account-money-valute">ETH</span>
+                </p>
+              </button>
+            </a>
+          </div>
+          <div class="other-block__search other-block__search_mobile-mt">
+            <input
+              type="search"
+              placeholder="Search"
+              class="other-block__search-input"
+            />
+            <button class="other-block__search-button">
+              <img src="./icons/1/search__input.svg" alt="" />
+            </button>
+          </div>
+          <a href="">
+            <button
+              class="other-block__upload-button other-block__upload-button_mobile-mt"
+            >
+              Upload
+            </button>
+          </a>
+        </div>
+      </header>
+      <div class="notifications-wrapper">
+        <div class="notifications">
+          <div class="flex-wrapper flex-wrapper_jcsa" style="margin-bottom: 15px">
+            <p class="notifications__title">Notification</p>
+            <a href="">
+              <button class="notifications__seeAll">See all</button>
+            </a>
+          </div>
+          <div class="notifications__nofication">
+            <div class="flex-wrapper">
+              <img
+                src="./img/header_img/notification1.png"
+                alt=""
+                class="notification__img"
+              />
+              <div class="notifcation__text">
+                <p class="notification__title-text">
+                  ETH received <br />
+                  0.08 ETH recived
+                </p>
+                <p class="notification__desc-text">2 days ago</p>
+              </div>
+            </div>
+            <div class="notification__circle"></div>
+          </div>
+           <div class="notifications__nofication">
+            <div class="flex-wrapper">
+              <img
+                src="./img/header_img/notification2.png"
+                alt=""
+                class="notification__img"
+              />
+              <div class="notifcation__text">
+                <p class="notification__title-text">
+                  C O I N Z <br />
+                  New bid 0.2 ETH
+                </p>
+                <p class="notification__desc-text">3 days ago</p>
+              </div>
+            </div>
+            <div class="notification__circle"></div>
+          </div>
+           <div class="notifications__nofication">
+            <div class="flex-wrapper">
+              <img
+                src="./img/header_img/notification3.png"
+                alt=""
+                class="notification__img"
+              />
+              <div class="notifcation__text">
+                <p class="notification__title-text">
+                  ETH received <br />
+                  0.08 ETH recived
+                </p>
+                <p class="notification__desc-text">4 days ago</p>
+              </div>
+            </div>
+            <div class="notification__circle"></div>
+          </div>
+           <div class="notifications__nofication">
+            <div class="flex-wrapper">
+              <img
+                src="./img/header_img/notification4.png"
+                alt=""
+                class="notification__img"
+              />
+              <div class="notifcation__text">
+                <p class="notification__title-text">
+                  ETH received <br />
+                  0.08 ETH recived
+                </p>
+                <p class="notification__desc-text">5 days ago</p>
+              </div>
+            </div>
+            <div class="notification__circle"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    <div class="header-type">
+        <div class="container">
+            <div class="header-type__block">
+                <p class="header-type__block_name">Type your keywords</p>
+                <img src="./icons/1/Small.svg" alt="">
+            </div>
+            <div class="adaptive">
+                <div class="header-type__block-adaptive">
+                    <p class="header-type__block_name-adaptive">Type your keywords</p>
+                    <img src="./icons/1/search__input.svg" alt="" class="header-type__block_icon-adaptive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="container">
+            <div class="all">
+                <div class="catalog__settings">
+                    <div class="catalog__settings_dropdown">
+                        <div class="catalog__settings_dropdown_select">
+                            <span class="catalog__settings_dropdown_select_selected">Recently added</span>
+                            <img class="catalog__settings_dropdown_select_caret" src="./icons/1/butom_icon.svg" alt="">
+                        </div>
+                        <ul class="catalog__settings_dropdown_menu">
+                            <li class="active">Recently added</li>
+                            <li>Recently swag</li>
+                        </ul>
+                    </div>
+                    <div class="catalog__main_menu-adaptive">
+                        <p class="menu-points one">All items</p>
+                        <p class="menu-points two">Art</p>
+                        <p class="menu-points three">Game</p>
+                        <p class="menu-points four">Photography</p>
+                        <p class="menu-points five">Music</p>
+                        <p class="menu-points six">Video</p>
+
+                    </div>
+                    <div class="catalog__settings_scroll">
+                        <p class="catalog__settings_scroll_price">Price range</p>
+
+                        <div class="range-slider">
+                            <input type="range" min="0" max="10" value="5" class="slider">
+                            <div class="slider-thumb">
+                                <div class="tooltip"></div>
+                            </div>
+                            <div class="progress"></div>
+                        </div>
+                        <div class="catalog__settings_scroll_score">
+                            <p class="catalog__settings_scroll_scoree">0 ETH</p>
+                            <p class="catalog__settings_scroll_scoree">10 ETH</p>
+                        </div>
+                    </div>
+                    <p class="catalog__settings_likes">likes</p>
+                    <div class="catalog__settings_dropdown second">
+                        <div class="catalog__settings_dropdown_select">
+                            <span class="catalog__settings_dropdown_select_selected">Most liked</span>
+                            <img class="catalog__settings_dropdown_select_caret" src="./icons/1/butom_icon.svg" alt="">
+                        </div>
+                        <ul class="catalog__settings_dropdown_menu">
+                            <li class="active">Most liked</li>
+                            <li>Recently swag</li>
+                        </ul>
+                    </div>
+
+                    <p class="catalog__settings_likes">color</p>
+                    <div class="catalog__settings_dropdown second">
+                        <div class="catalog__settings_dropdown_select">
+                            <span class="catalog__settings_dropdown_select_selected">all colors</span>
+                            <img class="catalog__settings_dropdown_select_caret" src="./icons/1/butom_icon.svg" alt="">
+                        </div>
+                        <ul class="catalog__settings_dropdown_menu">
+                            <li class="active">all colors</li>
+                            <li>black</li>
+                            <li>green</li>
+                            <li>purple</li>
+                        </ul>
+                    </div>
+
+                    <p class="catalog__settings_likes">creator</p>
+                    <div class="catalog__settings_dropdown last">
+                        <div class="catalog__settings_dropdown_select">
+                            <span class="catalog__settings_dropdown_select_selected">verified only</span>
+                            <img class="catalog__settings_dropdown_select_caret" src="./icons/1/butom_icon.svg" alt="">
+                        </div>
+                        <ul class="catalog__settings_dropdown_menu">
+                            <li class="active">verified only</li>
+                            <li>all</li>
+                            <li>most liked</li>
+                        </ul>
+                    </div>
+                    <div class="catalog__settings_reset">
+                        <img src="./icons/1/white_close.svg" alt="">
+                        <p class="catalog__settings_reset_filters">Reset filter</p>
+                    </div>
+                </div>
+                <div class="catalog__main">
+                    <div class="catalog__main_menu">
+                        <p class="menu-points one">All items</p>
+                        <p class="menu-points two">Art</p>
+                        <p class="menu-points three">Game</p>
+                        <p class="menu-points four">Photography</p>
+                        <p class="menu-points five">Music</p>
+                        <p class="menu-points six">Video</p>
+
+                    </div>
+                    <div class="catalog__main_cards">
+
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-bid__slider_cards_card">
+                            <div class="slider_cards_card_photo">
+                                <div class="slider_cards_card_photo_addition">
+                                    <div class="slider_cards_card_photo-addition">
+                                        <div class="slider_cards_card_photo-addition_green">
+                                            <p>purchasing !</p>
+                                        </div>
+                                        <img src="./icons/1/❤️.svg" alt="">
+                                    </div>
+                                    <div class="slider_cards_card_photo-addition_blue">
+                                        <p class="slider_cards_card_photo-addition_blue_addition_blue">Place a bid</p>
+                                        <img src="./icons/1/scatter2.svg"
+                                            class="slider_cards_card_photo-addition_blue_addition_img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hot-bid__slider_cards_card_info">
+                                <div class="hot-bid__slider_cards_card_info_header">
+                                    <p class="slider_cards_card_info_header text-info">Amazing digital art</p>
+                                    <p class="slider_cards_card_info_header text-price">2.45 ETH</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_quantity">
+                                    <div class="hot-bid__slider_cards_card_quantity_avatars">
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-purple">
+                                            <img class="hot-bid__slider_cards_card_quantity-purple-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-pink">
+                                            <img class="hot-bid__slider_cards_card_quantity-pink-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                        <a href="" class="hot-bid__slider_cards_card_quantity-green">
+                                            <img class="hot-bid__slider_cards_card_quantity-green-img"
+                                                src="./img/profile_page_eight/austin-wade-X6Uj51n5CE8-unsplash 1.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_quantity-have">3 in stock</p>
+                                </div>
+                                <div class="hot-bid__slider_cards_card_price">
+                                    <div class="hot-bid__slider_cards_card_price-info">
+                                        <img src="./icons/1/candlesticks_up3.svg" alt=""
+                                            class="hot-bid__slider_cards_card_price-info_img">
+                                        <p class="hot-bid__slider_cards_card_price-info_name">Highest bid</p>
+                                        <p class="hot-bid__slider_cards_card_price-info_price">0.001 ETH</p>
+                                    </div>
+                                    <p class="hot-bid__slider_cards_card_price-info-new">New bid 🔥</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="catalog__main_load">
+                        <p class="catalog__main_load-more">Load more</p>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-up">
+            <div class="footer-up__logo-block">
+              <div class="flex-wrapper">
+                <img src="./icons/1/logo.svg" alt="" class="footer-up__logo" />
+                <p class="footer-up__text-title">crypter</p>
+              </div>
+              <p class="footer-up__logo-block-text">
+                The New Creative <br />
+                Economy.
+              </p>
+            </div>
+            <ul class="footer__list1">
+              <li
+                class="flex-wrapper flex-wrapper_jcsb flex-wrapper_width footer__list1_mobile-title"
+                id="accordion-btn-footer-list1"
+              >
+                <p class="footer__list-title">crypter.</p>
+                <img
+                  src="./img/footer__img/arroe-down-accordion_footer.svg"
+                  alt=""
+                />
+              </li>
+              <li class="footer__list-title footer__list-title_mobile">Stacks</li>
+              <a href="">
+                <li class="footer__list-desc footer__list1__show-element">
+                  Discover
+                </li>
+              </a>
+              <a href="">
+                <li
+                  class="footer__list-desc footer__list-desc_mt footer__list1__show-element"
+                >
+                  Connect wallet
+                </li>
+              </a>
+              <a href="">
+                <li
+                  class="footer__list-desc footer__list-desc_mt footer__list-title_mobile"
+                >
+                  Create item
+              
+                </li>
+              </a>
+              <a href="">
+                <li
+                  class="footer__list-desc footer__list-desc_mt footer__list1__show-element footer__list-desc_mobile"
+                >
+                  FAQ
+                </li>
+              </a>
+            </ul>
+            <ul class="footer__list2">
+              <li
+                class="flex-wrapper flex-wrapper_jcsb flex-wrapper_width footer__list1_mobile-title"
+                id="accordion-btn-footer-list2"
+              >
+                <p class="footer__list-title">Info</p>
+                <img
+                  src="./img/footer__img/arroe-down-accordion_footer.svg"
+                  alt=""
+                />
+              </li>
+              <li class="footer__list-title footer__list-title_mobile">Info</li>
+              <a href="">
+                <li class="footer__list-desc footer__list2__show-element">
+                  Download
+                </li>
+              </a>
+              <a href="">
+                <li
+                  class="footer__list-desc footer__list-desc_mt footer__list2__show-element"
+                >
+                  Demos
+                </li>
+              </a>
+              <a href="">
+                <li
+                  class="footer__list-desc footer__list-desc_mt footer__list2__show-element"
+                >
+                  Support
+                </li>
+              </a>
+            </ul>
+            <ul class="footer__list3">
+              <li class="footer__list-title footer__list-title_mobile-desc">
+                Join Newsletter
+              </li>
+              <li class="footer-up__text-desc-newsletter">
+                Subscribe our newsletter to get more free design <br />
+                course and resource
+              </li>
+              <div class="footer-up__input-block">
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  class="footer-up__input"
+                />
+                <a href=""
+                  ><button class="footer-up__input-button" type="submit">
+                    <img
+                      src="./img/footer__img/arroew-right-footer-input.svg"
+                      alt=""
+                    /></button
+                ></a>
+              </div>
+            </ul>
+          </div>
+          <div class="footer-down">
+            <p class="footer-down-desc-text">
+              Copyright © 2021 UI8 LLC. All rights reserved
+            </p>
+            <div class="flex-wrapper flex-wrapper_jcsb footer-down__buttons">
+              <div class="footer-down__cookies-desc-text">
+                We use cookies for better service.
+              </div>
+              <a href=""><p class="footer-down__accept-text">Accept</p></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+    <script src="./js/footer.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/profile_page_eight.js">
+    </script>
+</body>
+
+</html>

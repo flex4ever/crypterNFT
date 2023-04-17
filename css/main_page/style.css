@@ -1,0 +1,1886 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.flex-wrapper_jcc {
+    justify-content: center;
+}
+
+.flex-wrapper_jcsb {
+    justify-content: space-between;
+}
+
+.flex-wrapper_jcsa {
+    justify-content: space-around;
+}
+
+.flex-wrapper_fdc {
+    flex-direction: column;
+}
+
+.flex-wrapper_width {
+    width: 100%;
+}
+
+.addaptive-flex-wrapper_wrap {
+    flex-wrap: wrap;
+}
+
+
+
+.main-block {
+    background: #141416;
+    padding-top: 128px;
+}
+
+.preface__description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #777E91;
+}
+
+.preface__title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+    margin-top: 10px;
+}
+
+.preface__btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+    padding: 16px 24px;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    background: none;
+    margin-top: 24px;
+}
+
+.mainNft {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 130px;
+}
+
+.mainNft.slick-slide{
+    z-index: 0 !important;
+}
+
+.mainNft__photo {
+    border-radius: 16px;
+}
+
+.main-slider-line {
+    overflow: hidden;
+}
+
+.descNft__title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: #FCFCFD;
+}
+
+.descNft {
+    width: 352px;
+}
+
+.descNft__creator-and-instprice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.descNft__creator {
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: fit-content;
+    height: 40px;
+}
+
+.descNft__creator img {
+    width: 100%;
+    height: 100%;
+}
+
+.descNft__creator-description,
+.descNft__instant-price-description {
+    margin-left: 8px;
+}
+
+.descNft__creator-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.descNft__creator-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.descNft__instant-price-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.descNft__instant-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.auctionNft {
+    width: 352px;
+    height: 296px;
+    background: #23262F;
+    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+    border-radius: 24px;
+    padding-top: 32px;
+    margin-top: 42px;
+}
+
+.auctionNft__currentBid {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.auctionNft__currentBid-priceCrypto {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FCFCFD;
+}
+
+.auctionNft__auction-ending {
+    margin-top: 24px;
+}
+
+.auctionNft__currentBid-price-dollar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #777E91;
+}
+
+.auctionNft__auction-ending-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.auctionNft__time {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+}
+
+.auctionNft__time-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #777E91;
+}
+
+.descNft__buttons-group {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.descNft__place-a-bid {
+    border: 0;
+    padding: 16px 24px;
+    width: 100%;
+    background: #3772FF;
+    border-radius: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.descNft__view-item {
+    background: none;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    width: 100%;
+    margin-top: 8px;
+    height: 48px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+}
+
+.descNft__arrows-group {
+    margin-top: 40px;
+    position: absolute;
+    top: 1187px;
+    left: 1161px;
+    z-index: 1000;
+    /* bottom: -566px; */
+}
+
+.descNft__arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    background: none;
+}
+
+.descNft__arrow:hover {
+    border: 2px solid #777E91;
+}
+
+/* 
+.main-slider-line{
+    display: flex;
+} */
+/* .slick-initialized .slick-slide {
+ 
+} */
+
+.main-slider-line .slick-track {
+    display: flex;
+}
+
+.slick-arrow.slick-prev {
+    font-size: 0;
+    background: url(../../img/main_page-img/arrow-left.svg) 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slick-arrow.slick-next {
+    font-size: 0;
+    background: url(../../img/main_page-img/arrow-right.svg) 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.slick-arrow.slick-next:hover,
+.slick-arrow.slick-prev:hover {
+    border: 2px solid #777E91;
+}
+
+.latest-upload {
+    margin-top: 140px;
+    padding-bottom: 128px;
+}
+
+.latest-upload__main-card {
+    width: fit-content;
+}
+
+.latest-upload__main-card-img {
+    border-radius: 12px;
+}
+
+.latest-upload__main-card-desc-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest-upload__main-card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FCFCFD;
+}
+
+.latest-upload__main-card-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E6E8EC;
+}
+
+.latest-upload__highest-bid {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.latest-upload__highest-bid-price {
+    border: 2px solid #45B36B;
+    border-radius: 4px;
+    padding: 8px 8px 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #45B36B;
+}
+
+.latest-upload__other-card-img {
+    border-radius: 12px;
+    width: 160px;
+    height: 148px;
+    transition: all 0.5s ease;
+}
+
+.latest-upload__other-card-img-hover {
+    transition: all 0.5s ease;
+}
+
+.latest-upload__other-card-img-hover:hover>.latest-upload__other-card-img {
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.latest-upload__other-card-img-hover:hover {
+    background-image: url(../../img/main_page-img/img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+}
+
+.latest-upload__other-card-desc-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.latest-upload__creators-title_addaptive-visible {
+    display: none;
+}
+
+.creator_pink-bg {
+    background: rgb(159, 80, 94);
+}
+
+.latest-upload__other-card-desc-price {
+    padding: 8px 8px 6px;
+    border: 2px solid #45B36B;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #45B36B;
+}
+
+.latest-upload__other-card-desc-quantity {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777E91;
+}
+
+.latest-upload__other-cards-desc-btn {
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    padding: 8px 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCFD;
+    background: none;
+    margin-top: 16px;
+    transition: 0.5s;
+}
+
+.latest-upload__other-cards-desc-btn:hover {
+    background: #3772FF;
+    border: 2px solid #3772FF;
+}
+
+.latest-upload__other-card-desc-wrap {
+    width: 167px;
+}
+
+.latest-upload__cards-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.latest-upload__other-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.latest-upload__other-card-desc {
+    margin-left: 24px;
+}
+
+.creator_yellow-bg {
+    background: yellow;
+}
+
+.latest-upload__creator-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.latest-upload__creator-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E6E8EC;
+}
+
+.latest-upload__creator-price-valute {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.latest-upload__creator-number {
+    position: relative;
+    top: 23px;
+    left: 4px;
+}
+
+.latest-upload__creators-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.creator_big-size {
+    width: 57px;
+    height: 57px;
+}
+
+.latest-upload__creators-get-more-btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCFD;
+}
+
+.latest-upload__creators-get-more-btn {
+    width: 158px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    padding: 8px 12px;
+    transition: 0.5s all ease;
+}
+
+.latest-upload__creators-get-more-btn:hover {
+    background: #3772FF;
+    border: 2px solid #3772FF;
+}
+
+.latest-upload__creators-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-left: 1px solid #353945;
+    padding-left: 28px;
+}
+
+.latest-upload__creator-desc {
+    margin-left: 16px;
+}
+
+.latest-upload__creator_bord-top {
+    border-top: 1px solid #353945;
+    width: 100%;
+}
+
+.pop-sellers {
+    background: #23262F;
+    padding-top: 128px;
+    padding-bottom: 120px;
+}
+
+.pop-sellers__select {
+    background: none;
+    outline: none;
+    border: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+    width: 165px;
+    margin-left: -5px;
+}
+
+.pop-sellers__select option {
+    background: #23262F;
+    outline: none;
+    border: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+}
+
+
+.pop-sellers__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #777E91;
+}
+
+.pop-sellers__temeframe-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #B1B5C4;
+}
+
+.pop-sellers__timeframe {
+    padding: 8px 8px 8px 16px;
+    border: 2px solid #353945;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 256px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+    margin-top: 12px;
+}
+
+.show-hide-text-drop-list {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.show-hide-block_active {
+    height: min-content !important;
+    border: 2px solid #535353;
+    border-top: none;
+}
+
+.show-hide-block_active_height-recently {
+    height: 98px !important;
+    border: 2px solid #535353;
+    border-top: none;
+}
+
+.show-hide-block_active_height-price {
+    height: 50px !important;
+    border: 2px solid #535353;
+    border-top: none;
+}
+
+
+.show-hide-text_active {
+    color: #B1B5C4;
+}
+
+.show-hide-block {
+    padding-left: 16px;
+    position: absolute;
+    overflow: hidden;
+    height: 0%;
+    background: #353945;
+    border-radius: 5px;
+    width: 236px;
+    transition: height 0.3s ease;
+    z-index: 1;
+    margin-top: 2px;
+}
+
+.show-hide-text-drop-list:hover {
+    color: #B1B5C4;
+}
+
+.button-drop-list-visible-content {
+    padding: 8px 8px 8px 16px;
+    border: 2px solid #353945;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+    margin-top: 12px;
+}
+
+.button-drop-list-visible-content_fit-content {
+    width: 153px;
+}
+
+.button-drop-list-visible-content_fit-content img {
+    margin-left: 10px;
+}
+
+.show-hide-block_width-min {
+    width: 160px;
+}
+
+.pop-sellers__show-hide-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.pop-sellers__buttons-addaptive_mt-visible {
+    display: none;
+}
+
+.pop-sellers__show-hide-block {
+    padding-left: 16px;
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    background: #141416;
+    border-radius: 5px;
+    width: 268px;
+    transition: height 0.3s ease;
+    z-index: 1;
+    margin-top: 2px;
+}
+
+.pop-sellers__show-hide-block_active {
+    height: 123px;
+    border: 2px solid #353945;
+    border-top: none;
+}
+
+.pop-sellers__show-hide-text:hover {
+    color: #B1B5C4;
+}
+
+.pop-sellers__show-hide-text_active {
+    color: #B1B5C4;
+}
+
+.pop-sellers__slider-card {
+    padding: 24px;
+    background: #141416;
+    border-radius: 16px;
+    width: 174px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    transition: 1s;
+
+}
+
+.pop-sellers__slider-card:hover>.creator_big-size {
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+}
+
+.pop-sellers__slider-card:hover {
+    height: 250px;
+}
+
+.pop-sellers__slider {
+    margin-top: 64px;
+}
+
+.pop-sellers__slider-card-up-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #353945;
+    ;
+}
+
+.pop-sellers__slider {
+    position: relative;
+}
+
+.pop-sellers_place {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px 8px;
+    width: 43px;
+    height: 22px;
+    background: #3772FF;
+    border-radius: 24px;
+}
+
+.pop-sellers__place-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FCFCFD;
+}
+
+.pop-sellers-seller-prize {
+    position: relative;
+    left: 18px;
+    bottom: 0px;
+}
+
+.pop-sellers__seller-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FCFCFD;
+
+}
+
+.pop-sellers__slider-line {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.pop-sellers__slider-line .slick-arrow {
+    position: absolute;
+    font-size: 0;
+    top: 50%;
+    z-index: 10;
+}
+
+.pop-sellers__slider-line .slick-arrow.slick-next {
+    right: -80px;
+}
+
+.pop-sellers__slider-line .slick-arrow.slick-prev {
+    left: -80px;
+}
+
+.pop-sellers__slider-line .slick-arrow.slick-disabled {
+    display: none !important;
+}
+
+
+.pop-sellers__seller-balance {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E6E8EC;
+}
+
+.pop-sellers__creator_minus-margin {
+    margin-bottom: -35px;
+}
+
+.pop-sellers_place_bg-pink {
+    background: #9757D7;
+}
+
+.pop-sellers_place_bg-null {
+    background: #23262F;
+}
+
+.pop-sellers_place_bg-green {
+    background: #45B36B;
+}
+
+.hot-bid {
+    margin-top: 136px;
+    padding-bottom: 148px;
+}
+
+.hot-bid-slider__card {
+    width: 256px;
+    border-radius: 0px 0px 16px 16px;
+    margin-right: 27px;
+}
+
+.hot-bid-slider__card-img {
+    height: 303px;
+    width: 256px;
+    border-radius: 16px;
+}
+
+.hot-bid__title-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+}
+
+.hot-bid-slider {
+    margin-top: 64px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hot-bid-slider__card-title-block {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hot-bid-slider__card-title-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+}
+
+.hot-bid-slider__card-title-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #45B36B;
+    border: 2px solid #45B36B;
+    border-radius: 4px;
+    padding: 8px 8px 6px;
+}
+
+.hot-bid-slider__card-creators-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #353945;
+}
+
+.hot-bid-slider__card-creator_position {
+    position: relative;
+    right: 13px;
+}
+
+.hot-bid-slider__card-creator_position2x {
+    position: relative;
+    right: 26px;
+}
+
+.hot-bid-slider__card-creators-quantity {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E6E8EC;
+}
+
+.hot-bid-slider__card-information-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.hot-bid-slider__card-information-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+    margin-left: 5px;
+}
+
+.hot-bid-slider__card-information-strong {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FCFCFD;
+}
+
+.hot-bid-slider__card-information-desc-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.hot-bid-slider__card-img-wrap {
+    width: 256px;
+    height: 303px;
+    border-radius: 25px;
+}
+
+.hot-bid-slider__card-img-wrap_img-one {
+    background: url(../../img/main_page-img/mainNft.png) no-repeat;
+    background-size: cover;
+}
+
+.hot-bid-slider__card-img-wrap_img-two {
+    background: url(../../img/main_page-img/latest-upload__main-card.png) no-repeat !important;
+    background-size: cover;
+}
+
+.hot-bid-slider__card-img-wrap_img-three {
+    background: url(../../img/main_page-img/HotBidNft3.png) no-repeat !important;
+    background-size: cover;
+}
+
+.hot-bid-slider__card-img-wrap_img-four {
+    background: url(../../img/main_page-img/hotBidSliderImg4.png) no-repeat !important;
+    background-size: cover;
+}
+
+.hot-bid-slider__card-img-hover-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FCFCFD;
+    padding: 8px 8px 6px;
+    background: #45B36B;
+    border-radius: 4px;
+}
+
+.hot-bid__card-img-hover-btn {
+    display: flex;
+    border: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 134px;
+    height: 40px;
+    background: #3772FF;
+    border-radius: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCFD;
+}
+
+.hot-bid-slider__card-img-hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+    padding-top: 20px;
+    padding-bottom: 9px;
+    border-radius: 25px;
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.hot-bid-slider__card-img-hover:hover {
+    opacity: 1;
+}
+
+.hot-bid__like {
+    height: 30px;
+}
+
+/* .hot-bid-slider .slick-arrow {
+   
+}
+
+.hot-bid-slider .slick-arrow.slick-prev {
+    
+}
+.hot-bid-slider .slick-arrow.slick-next{
+    
+} */
+.hot-collections {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: #23262F;
+}
+
+.hot-collections__title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+}
+
+.hot-collections__card-block {
+    margin-top: 80px;
+}
+
+.hot-collections__card-block .slick-list {
+    overflow: hidden;
+}
+
+.hot-colletions__card-btn {
+    padding: 8px 8px 6px;
+    border: 2px solid #E6E8EC;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FCFCFD;
+}
+
+.hot-collections__card {
+    width: 352px;
+    height: 405px;
+}
+
+.hot-colletions__creator-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E6E8EC;
+    margin-left: 5px;
+}
+
+.hot-collections__buttons-block-addaptive {
+    display: none;
+}
+
+
+
+.hot-collections__card-desc-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.hot-collections__card-name-collection {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FCFCFD;
+    margin-top: 16px;
+}
+
+.hot-collections__card-middle-img-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hot-collections__card-main-img,
+.hot-collections__card-down-img {
+    border-radius: 8px;
+}
+
+.hot-collections__card-block {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.hot-collections__card_margin {
+    margin-right: 32px;
+}
+
+/* .hot-collections__card-main-img{
+    width: 100%;
+} */
+.hot-collections__card-block .slick-slide {
+    max-width: 352px;
+    height: 405px;
+}
+
+.discover-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #FCFCFD;
+    margin-top: 128px;
+}
+
+.d-main__main-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 42px;
+
+}
+
+.d-main__main-buttons_active {
+    border-bottom: 1px solid #353945;
+    transition: border-bottom 0.3s ease;
+}
+
+
+.d-main__btn-categories {
+    border: none;
+    background: none;
+    border-radius: 100px;
+    padding: 6px 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCFD;
+}
+
+.d-main__btn-categories_active,
+.d-main__btn-categories:hover {
+    background: #353945;
+}
+
+.d-main__filtres-block {
+    height: 0;
+    opacity: 0;
+    transition: all 0.15s ease;
+}
+
+.dicover__cards-block {
+    transition: all 0.3s ease;
+}
+
+
+.d-main__filtres-block_active {
+    height: 120px;
+    opacity: 1;
+}
+
+.d-main__filter-btn {
+    background: #3772FF;
+    border-radius: 90px;
+    padding: 16px 24px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FCFCFD;
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+.d-main__filter-btn img {
+    width: 13px;
+    height: 13px;
+    margin-left: 15px;
+}
+
+.d-main__btn-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #B1B5C4;
+    margin-top: 32px;
+}
+
+.d-main__filtres-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.d-main__input-block {
+    width: 240px;
+}
+
+.d-main__input-block-input {
+    width: 100%;
+}
+
+.d-main__input-block-wrap {
+    position: relative;
+    height: 47px;
+}
+
+.d-main__input-block-input {
+    position: absolute;
+    bottom: 0;
+}
+
+.d-main__input-block-input-num {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 46%;
+    font-family: 'Poppins';
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FCFCFD;
+}
+
+.d-main__input-block-crite-range {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FCFCFD;
+}
+
+.dicover__cards-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 915px;
+}
+
+.dicover__cards-block_active-margin {
+    margin-top: 32px;
+}
+
+.dicover__cards-block .hot-bid-slider__card {
+    margin-right: 0;
+}
+
+.discover__card-img-wrap_img-one {
+    background: url(../../img/main_page-img/discoverF1.png) no-repeat !important;
+    background-size: cover;
+}
+
+.discover__card-img-wrap_img-two {
+    background: url(../../img/main_page-img/DiscoverF2.png) no-repeat !important;
+    background-size: cover;
+}
+
+.discover__card-img-wrap_img-four {
+    background: url(../../img/main_page-img/discoverF4.png) no-repeat !important;
+    background-size: cover;
+}
+
+.discover__card-img-wrap_img-six {
+    background: url(../../img/main_page-img/discoverF5.png) no-repeat !important;
+    background-size: cover;
+}
+
+.discover__loading-more {
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    padding: 12px 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FCFCFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover__loading-more-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.discover__load-more-anim {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.discover__loading-img {
+    animation: roundLoading 1.8s infinite;
+}
+
+@keyframes roundLoading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.crypto {
+    padding: 80px 0px;
+    margin-top: 128px;
+    border-top: 1px solid #353945;
+
+}
+
+.crypto__preface-txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #777E91;
+}
+
+.crypto__title-txt {
+    margin-top: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: #FCFCFD;
+}
+
+.crypto__desc-text {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777E91;
+}
+
+.crypto__btn-group {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.crypto__btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FCFCFD;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    padding: 16px 24px;
+    background: none;
+}
+
+.crypto__btn_background {
+    border: none;
+    background: #3772FF;
+}
+
+.crypto__btn_margin {
+    margin-left: 16px;
+}
+
+.latest-upload__creators-block .slick-list {
+    overflow: hidden;
+}
+
+.latest-upload__creators-block .slick-arrow {
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    height: 0;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.d-main__buttonsGroup-drop-list-mobile {
+    display: none;
+}
+
+.d-main__filter-btn-mobile {
+    display: none;
+    background: #3772FF;
+    border-radius: 90px;
+    padding: 16px 24px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+    margin-top: 12px;
+}
+
+.hot-collections__btn-mobile {
+    display: none;
+}
+
+.discover-cards-slider-mobile_buttons {
+    display: none;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 864px;
+    }
+
+    .mainNft__photo {
+        border-radius: 16px;
+        width: 478px;
+        height: 780px;
+    }
+
+    .descNft__arrows-group {
+        margin-top: 40px;
+        position: absolute;
+        top: 1174px;
+        left: 584px;
+        z-index: 1000;
+    }
+
+    .latest-upload__cards-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+
+    .latest-upload__creator_bord-top {
+        border-top: none;
+    }
+
+    .latest-upload__creator_width-addaptive {
+        width: 100%;
+    }
+
+    .latest-upload__creators-title_addaptive-visible {
+        display: block !important;
+        margin-top: 30px;
+    }
+
+    .latest-upload__creators-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #777E91;
+        display: none;
+    }
+
+    .latest-upload__creators-get-more-btn {
+        width: 158px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: none;
+        border: 2px solid #777E91;
+        border-radius: 90px;
+        padding: 8px 12px;
+        transition: 0.5s all ease;
+        display: none;
+    }
+
+    .latest-upload__creators-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-left: none;
+        padding-left: 28px;
+        width: 100%;
+    }
+
+    .hot-bid-slider__card_addaptive-visible {
+        display: none;
+    }
+
+    .pop-sellers__slider-line .slick-arrow {
+        font-size: 0;
+        position: static;
+    }
+
+    .pop-sellers__slider-line .slick-arrow.slick-next {
+        right: 0;
+    }
+
+    .pop-sellers__slider-line .slick-arrow.slick-prev {
+        left: 0;
+    }
+
+    .pop-sellers__buttons-addaptive_mt-visible {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .hot-bid-slider__card {
+        width: 256px;
+        border-radius: 0px 0px 16px 16px;
+        margin-right: 35px;
+    }
+
+    .hot-collections__buttons-block-addaptive {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .button-drop-list-visible-content {
+        width: 158px;
+
+    }
+
+    .show-hide-block {
+
+        width: 164px;
+
+    }
+
+    .crypto__mainImg {
+        width: 414px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 311px;
+    }
+
+    .mainNft {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 130px;
+        flex-direction: column;
+    }
+
+    .mainNft__photo {
+        border-radius: 16px;
+        width: 100%;
+        height: 478px;
+    }
+
+    .descNft {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .auctionNft {
+        width: 100%;
+        height: 296px;
+        background: #23262F;
+        box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+        border-radius: 24px;
+        padding-top: 32px;
+        margin-top: 42px;
+    }
+
+    .descNft__arrows-group {
+        margin-top: 40px;
+        position: static;
+        margin-left: 33%;
+        z-index: 1000;
+    }
+
+    .latest-upload__main-card-img {
+        width: 100%;
+    }
+
+    .latest-upload__other-cards {
+        display: none;
+    }
+
+    .addaptive-flex-wrapper_wrap .pop-sellers__timeframe-block {
+        margin-top: 24px;
+    }
+
+    .latest-upload__highest-bid-price {
+        border: 2px solid #45B36B;
+        border-radius: 4px;
+        padding: 3px 0px 5px 3px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #45B36B;
+    }
+
+    .latest-upload__main-card-title {
+        font-size: 16px;
+
+    }
+
+    .d-main__buttonsGroup {
+        display: none;
+    }
+
+    .d-main__buttonsGroup-drop-list-mobile {
+        display: block;
+    }
+
+    .d-main__main-buttons {
+        flex-direction: column;
+    }
+
+    .d-main__buttonsGroup-drop-list-mobile .show-hide-block_active_height-price {
+        height: 145px !important;
+        border: 2px solid #535353;
+        border-top: none;
+    }
+
+    .d-main__filter-btn {
+        display: none;
+    }
+
+    .d-main__filter-btn-mobile {
+        display: block;
+    }
+
+    #AllItems-added-btn,
+    #recetly-added-btn {
+        width: 90%;
+    }
+
+    .d-main__main-buttons {
+
+        align-items: stretch;
+
+    }
+
+    .hot-collections__btn-mobile {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .dicover__cards-block {
+        height: fit-content;
+    }
+
+    .discover-cards-slider-mobile_buttons {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .dicover__cards-block .hot-bid-slider__card {
+        margin-right: 16px;
+    }
+
+    .discover__loading-more-wrap {
+        display: none;
+    }
+
+    .addaptive-flex-wrapper_fdc {
+        flex-direction: column;
+    }
+
+    .crypto__mainImg {
+        width: 294px;
+        margin-top: 30px;
+    }
+    .d-main__filtres-block{
+        display: none;
+    }
+}
