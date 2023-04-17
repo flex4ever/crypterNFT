@@ -299,7 +299,9 @@ input[type='search']::-webkit-search-results-decoration {
     transition: all 1s ease;
     opacity: 1;
     display: none;
+
     z-index: 1;
+
 
 }
 
@@ -329,10 +331,14 @@ input[type='search']::-webkit-search-results-decoration {
 
     height: 528px;
 
+
+    height: 528px;
+
     height: 528px;
 
     height: 0px;
     display: none;
+
 
     background: #141416;
     box-shadow: 0px 16px 64px -48px rgba(31, 47, 70, 0.4);
@@ -347,9 +353,11 @@ input[type='search']::-webkit-search-results-decoration {
 
 .notifcations_active {
 
+
     display: block;
     opacity: 1;
     height: 528px;
+
 
 
 }
