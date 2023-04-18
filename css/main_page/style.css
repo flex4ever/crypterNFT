@@ -4,7 +4,9 @@
     text-decoration: none;
     list-style: none;
 }
-
+.other-block__upload-a{
+color: #FCFCFD;
+}
 .container {
     margin: 0 auto;
     max-width: 1120px;
