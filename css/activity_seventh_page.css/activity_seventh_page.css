@@ -26,14 +26,15 @@
 }
 
 .button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
     font-family: 'DM Sans', sans-serif;
     margin-top: 24px;
-    background: #141416;
     border: 2px solid #353945;
     border-radius: 90px;
     width: 153px;
     height: 40px;
-    text-align: center;
     font-size: 16px;
     cursor: pointer;
     color: white;
