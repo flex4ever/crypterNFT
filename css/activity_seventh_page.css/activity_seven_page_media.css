@@ -49,7 +49,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .container {
         margin: 0 auto;
         max-width: 311px;
@@ -115,5 +115,8 @@
     }
     .adaptive__knopka{
         display: block;
+    }
+    .block__settings{
+        display: none;
     }
 }
