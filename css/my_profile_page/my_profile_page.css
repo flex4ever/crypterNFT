@@ -13,9 +13,9 @@
 body {
     background-color: #141416;
 }
-.pull{
-    
-}
+
+.pull {}
+
 .cover {
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,9 +219,11 @@ p.cover__edit-text {
 }
 
 .cover__edit {
-    margin-top: 250px;
-    display: flex;
-
+  margin-right: 250px;
+        margin-top: 250px;
+        display: flex;
+        justify-content: flex-end;
+    
 }
 
 .cover__nav {
@@ -425,9 +427,12 @@ p.cover__edit-text {
 }
 
 .cover__nav-line {
-    margin-left: 31px;
-    margin-top: 7.5px;
-
+    margin-left: 33px;
+    margin-top: 8px;
+    background: #353945;
+    border-radius: 1px;
+    width: 245.33px;
+    height: 1px;
 }
 
 .line-two {
@@ -481,8 +486,8 @@ p.cover__edit-text {
 }
 
 .cover__right-block {
-    margin-left: 1030px;
-    margin-top: -0px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 .cover__nav-adaptive {
